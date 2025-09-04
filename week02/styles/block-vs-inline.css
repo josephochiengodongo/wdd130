@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    margin: 1rem;
+}
+
+p,
+div {
+    background-color: beige;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+span {
+    color: navy;
+    background-color: lightblue;
+}
+
+code {
+    margin: 0;
+    padding: 0;
+    color: green;
+    font-size: 1.2rem;
+}
+
+.note {
+    font-style: italic;
+    background-color: lightgoldenrodyellow;
+    border-radius: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.question {
+    background-color: #3d503d;
+    color: #fff;
+}
