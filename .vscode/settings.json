@@ -7,7 +7,7 @@
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
-  
+
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
   "git.confirmSync": false,
