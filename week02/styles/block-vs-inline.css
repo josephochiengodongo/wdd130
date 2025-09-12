@@ -1,7 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
+.callout{
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid  rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color:   #247;
+    color:   #fff;
+    border-radius: 8px;
 }
+margin: 0;
+padding: 0;
 
 body {
     font-size: 20px;
