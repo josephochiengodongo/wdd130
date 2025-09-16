@@ -5,7 +5,7 @@
 
 main {
     max-width: 800px;
-    margin: 2r  auto;
+    margin: 2rem auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,9 +31,9 @@ h1 {
     position: absolute;
     top: 25px;
     right: 25px;
-    background:radial-gradient(# eee, #323A) ;
+    background:radial-gradient(#eee, #323A06) ;
     border: 10px solid #000;
-    padding: 0.6rem; 
+    padding: 0.65rem; 
     box-shadow: 0 0 30px #111;
     opacity: 0.9;                                                                                                                         fixed                                                                                                                                                 ;
 }
