@@ -8,7 +8,7 @@ main img {
 }
 
 
-}
+
 
 
 
@@ -39,11 +39,17 @@ img {
 }
 
 
+main img{
 
-
-
-
-
+}
+aside{
+    width:20rem;
+    margin:1rem;
+    border: 1px solid rgb(000/0.2)
+    padding:1rem;
+    background-color: #eee;
+    color:#333;
+}
 
 
 aside img{
