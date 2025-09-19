@@ -44,6 +44,12 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top:65px;
+    left:150px;
+}
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
