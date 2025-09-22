@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #055a05;/* forest green*/
-    --secondary-color: #f4a261; /* warm sand */
-    --accent1-color: #264653; /* dark slate blue*/
-    --accent2-color:  #e9c46a;/*light golden yellow */
-    --heading-font: "Times New Roman","Georgia",serif;
-    --body-font: Arial,Helvetica,sans-serif;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261; 
+    --accent1-color: #264653:var(--accent1-color);
+    --accent2-color:  #e9c46a;
+    --heading-font: serif;
+    --body-font: san-serif;
 }
 
 header {
@@ -60,7 +60,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff; /* white text-make sure thereis enough contrast with the background-color */
+    color: #fff; 
 }
 
 article {
@@ -69,9 +69,55 @@ article {
     height: auto;
 }
 
-article img {
+.hero article img {
        float: right;
+       border: #055a05;
+       margin: 0%;
+       box-shadow: #264653;
+}
+
+.hero {
+    position: relative;
 }
 
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+     position: absolute;
+     top: 20px;
+     width: 100%;
+     padding: 16px;
+     text-align: center;
+     opacity: 0.7;
+     background-color: var(--accent1-color);
+     color: #fff
+}
+
+
+.hero {
+    position: relative;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+     position: absolute;
+     top: 20px;
+     width: 100%;
+     padding: 16px;
+     text-align: center;
+     opacity: 0.7;
+     background-color: var(--accent1-color);
+     color: #fff
+}
 
