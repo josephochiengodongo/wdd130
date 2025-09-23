@@ -1,21 +1,36 @@
 :root {
-    
+    /* Dark color for primary text */
     --primary-color: #4d4c49;
 
+    /* Secondary color,slightly lighter */
     --secondary-color: #484029;
 
+    /* Accent color 1 */
     --accent1-color: #484048;
 
+    /* Accent color 2 */
     --accent2-color: #37471e;
-
+     
+    /* Accent color 3 */
     --accent3-color: #254768;
-
+    
+    /* White color */
     --white: #f3eded;
     
+    /* Black color */
     --black: #0e0c0c;
     
+    /* Button Background color */
     --button-color: #714a0e;
+    --button-color-hover: #04083e;
 
-    --butt
+    --cta-button-color: #1bdd01;
+    --cta-button-color-hover: #04083e;
+
+    /* Top Navigation Colors */
+    /* Background color for navigation bar */
+    --nav-background-color: var(--accent2-color);
+
+    
 
 }
