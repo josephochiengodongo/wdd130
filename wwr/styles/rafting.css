@@ -110,4 +110,5 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+    position: lft;
 }
