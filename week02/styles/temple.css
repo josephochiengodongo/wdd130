@@ -1,30 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
 header {
-    background-color: #333; 
-    color:  #fff;
-    padding :10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    font-size: 1.5rem;;
+    font-size: 1.5rem;
 }
 
 main {
     width: 400px;
-    margin:0 auto;
-}
-    
-h1 {
-    margin: 10px;
-    text-align: center;
+    margin: 0 auto;
 }
 
-img  {
+h1 {
+    margin: 10px;
+    height: auto;
+}
+
+img {
     width: 100%;
-    height:auto;
+    height: auto;
 }
 
 footer {
-    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
 }
-
-  
-    
     
