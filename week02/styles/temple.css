@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-} 
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +17,7 @@ header, footer {
 }
 
 main {
-    width: 400px;
+    width: 40px;
     margin: auto;
 }
 
@@ -46,11 +46,11 @@ section {
 }
 
 section p {
-    margin-left: 20px;
+    margin: 10px;
 }
 
 ul {
-    margin-left: 20px;
+    margin-left: 10px  20px ;
 }
 
 footer {
