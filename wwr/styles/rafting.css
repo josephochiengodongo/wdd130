@@ -10,16 +10,16 @@
 
     /* Accent color 2 */
     --accent2-color: #3d816a;
-     
+
     /* Accent color 3 */
     --accent3-color: #254768;
-    
+
     /* White color */
     --white: #f3eded;
-    
+
     /* Black color */
     --black: #0e0c0c;
-    
+
     /* Button Background color */
     --button-color: #714a0e;
     --button-color-hover: #04083e;
@@ -38,13 +38,13 @@
     --nav-hover-background-color: #fff;
 
     /* Font for heading */
-    --heading-font: #Cambria
-    /* FOnt for paragraph */
-    --paragrph-font: 'Oswald', 'sans-serif';
+    --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        /* FOnt for paragraph */
+        --paragrph-font:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -57,12 +57,16 @@ body {
 }
 
 
-h1,h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -99,7 +103,7 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
-    
+
 }
 
 
@@ -109,8 +113,8 @@ h1 {
     height: auto;
 }
 
-header  {
-    display:grid;
+header {
+    display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
     gap: 1rem;
@@ -130,7 +134,7 @@ nav a {
 }
 
 
-nav ul  {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -138,7 +142,7 @@ nav ul  {
 }
 
 
-nav a :hover{
+nav a :hover {
     background-color: var(--accent2-color);
     color: var(--primary-color);
 }
@@ -150,7 +154,6 @@ nav a :hover{
 
 .socialmedia a:hover {
     background-color: unset
-
 }
 
 .socialmedia img {
@@ -166,7 +169,7 @@ footer {
     grid-template-columns: 3fr 1fr;
     align-items: center;
 }
-    
+
 
 
 footer p {
@@ -179,7 +182,7 @@ footer p {
     gap: 2rem 1rem;
 }
 
-.history  h2 {
+.history h2 {
     grid-column: 1/-1;
     justify-self: center;
     margin-bottom: 1rem;
@@ -188,14 +191,14 @@ footer p {
 
 .adventures {
     display: grid;
-    grid-template-columns:repeat(5,1fr);
-    gap:2rem 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem 1rem;
 
 }
 
 .adventures figure {
     border: 2px solid var(--accent2-color);
-    padding : o.5rem;
+    padding: o.5rem;
     background-color: var(--white);
     align-items: center
 }
@@ -214,7 +217,7 @@ footer p {
     border-radius: 0.5rem;
     margin: auto;
     box-shadow: 0 0 15px rgb(0 0 0/20%);
-    
+
 }
 
 
@@ -225,10 +228,12 @@ footer p {
     font-weight: bold;
     margin-top: 0.5rem;
 }
-    
-header, main,footer {
-    width: 1000px
-    margin: auto;
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -239,9 +244,10 @@ header, main,footer {
     text-align: center;
     color: var(--white);
     background-color: var(--secondary-color);
-}    
+}
 
-section, article {
+section,
+article {
     margin: 1rem;
     padding: 1rem;
     background-color: var(--white);
@@ -287,15 +293,16 @@ button:hover {
     color: var(--white);
     background-color: var(--accent1-color);
     padding: 1rem;
-    border: 2px solid var(--secondary-color); 
+    border: 2px solid var(--secondary-color);
     position: absolute;
-    bottom: 2rem;;
+    bottom: 2rem;
+    ;
 
 }
 
 .gmap {
     border: 0;
-    grid-column: 1/-1
+    grid-column: 1/-1;
     grid-row: 2;
 }
 
@@ -304,14 +311,15 @@ button:hover {
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    gap:2rem 1rem;
+    gap: 2rem 1rem;
     align-items: center;
 
 }
+
 .employee {
     grid-column: 1/3;
     grid-row: 3;
-    grid-template-columns: reap(3,1fr);
+    grid-template-columns: reap(3, 1fr);
     display: grid;
     gap: 3rem;
 }
@@ -322,7 +330,7 @@ button:hover {
     grid-column: 2;
     grid-row: 2;
     display: grid;
-    grid-template-columns: 1fr  4fr;
+    grid-template-columns: 1fr 4fr;
     gap: 2rem 1rem;
     align-items: center;
 }
@@ -335,7 +343,7 @@ button:hover {
     align-items: center;
 }
 
-.purpose p {auto
+.purpose p {
     margin: 0;
     padding: 0;
     grid-column: 1;
@@ -349,36 +357,16 @@ button:hover {
     gap: .5rem .25rem;
 }
 
-.full-W  {
+.full-W {
     grid-column: 1/1;
     display: flex;
     flex-direction: column;
 }
 
 
-  .subscribe  {
+.subscribe {
     grid-column: 1/1;
     display: flex;
     align-items: center;
     gap: 5rem;
-  }
-
-  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
