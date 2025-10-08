@@ -224,8 +224,9 @@
     }
 
     .history img {
-        border-color: #f3eded;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+
 
     }
 
@@ -234,18 +235,18 @@
         flex-direction: row;
     }
 
-    top:;
+
 
     .adventures h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        display: grid;
+        place-items: center;
     }
 
     .adventures figure {
-        align-items: center;
         background-color: #fff;
         padding: .25rem;
+        display: grid;
+
+
 
     }
