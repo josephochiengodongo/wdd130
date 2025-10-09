@@ -209,9 +209,8 @@
         background-color: var(--white);
         border: 1px solid var(--accent2-color);
         border-radius: 0.5rem;
+
     }
-
-
 
 
     .history {
@@ -278,20 +277,30 @@
 
     }
 
+    .gmap {
+        grid-column: auto;
+    }
+
+    .purpose {
+        align-self: start;
+    }
 
 
     .employees img {
-        justify-self: row;
+        justify-self: center;
         grid-template-rows: center;
 
     }
 
 
     .contact form {
-        grid-column: auto;
-        grid-template-columns: auto
+        align-self: left;
+        width: 300px;
+        height: 250px;
+
     }
 
     .employees h2 {
-        justify-self: left;
+        justify-self: center;
+
     }
