@@ -279,6 +279,7 @@
 
     .gmap {
         grid-column: auto;
+        align-items: left;
     }
 
     .purpose {
