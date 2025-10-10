@@ -267,8 +267,8 @@
         color: var(--accent2-color);
     }
 
-    .btm: hover {
-        background-color: ;
+    .btm hover {
+        background-color:
 
     }
 
@@ -279,7 +279,7 @@
 
     .gmap {
         grid-column: auto;
-        align-items: left;
+        align-items: normal
     }
 
     .purpose {
