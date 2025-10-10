@@ -41,264 +41,262 @@
     --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* Font for paragraph */
     --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    /* Global selectors moved outside :root */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+/* Global selectors moved outside :root */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-    body {
-        font-family: var(--body-font);
-        color: var(--accent1-color);
-    }
-
-
-    h1,
-    h2 {
-        font-family: var(--heading-font);
-        color: var(--primary-color)
-    }
-
-    nav,
-    p,
-    section,
-    article {
-        margin: 16px;
-        padding: 8px;
-    }
-
-    .socialmedia a {
-        text-decoration: none
-    }
-
-    .socialmedia a:hover {
-        background-color: unset;
-    }
-
-    .socialmedia img {
-        width: 4rem;
-        height: 4rem;
-    }
-
-    .hero {
-        position: relative;
-    }
-
-    .hero img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .hero h1 {
-        position: absolute;
-        top: 20px;
-        width: 100%;
-        padding: 16px;
-        text-align: center;
-        opacity: 0.7;
-        background-color: fuchsia;
-        color: #fff;
-
-    }
-
-    .hero article {
-        font-size: 1.2rem;
-        left: 1rem;
-        right: 1rem;
-        color: var(--white);
-        background-color: var(--accent1-color);
-        padding: 1rem;
-        border: 2px solid var(--secondary-color);
-        position: absolute;
-        bottom: 2rem;
-    }
-
-    .hero article img {
-        float: right;
-        width: 125px;
-        height: auto;
-    }
-
-    header {
-        display: grid;
-        grid-template-columns: 200px auto;
-        align-items: center;
-        gap: 1rem;
-        background-color: var(--primary-color);
-        color: var(--accent1-color);
-    }
-
-    header img {
-        width: 200px;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    nav a {
-        color: var(--white);
-        text-decoration: none;
-        font-weight: bold;
-    }
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
 
 
-    nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
 
-    nav a:hover {
-        background-color: var(--accent2-color);
-        color: var(--primary-color);
-    }
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
 
-    .socialmedia a {
-        text-decoration: none;
-    }
+.socialmedia a {
+    text-decoration: none
+}
 
-    .socialmedia a:hover {
-        background-color: unset
-    }
+.socialmedia a:hover {
+    background-color: unset;
+}
 
-    .socialmedia img {
-        width: 4rem;
-        height: 4rem;
-    }
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
 
-    footer {
-        background-color: var(--primary-color);
-        color: var(--white);
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        align-items: center;
-    }
+.hero {
+    position: relative;
+}
 
-    footer p {
-        margin-left: 1rem;
-    }
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
-    header,
-    main,
-    footer {
-        width: 1000px;
-        margin: 0 auto;
-    }
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: fuchsia;
+    color: #fff;
 
-    .hero h1 {
-        position: absolute;
-        top: 4rem;
-        width: 100%;
-        padding: 1rem;
-        text-align: center;
-        color: var(--white);
-        background-color: var(--secondary-color);
-    }
+}
 
-    section,
-    article {
-        margin: 1rem;
-        padding: 1rem;
-        background-color: var(--white);
-        border: 1px solid var(--accent2-color);
-        border-radius: 0.5rem;
+.hero article {
+    font-size: 1.2rem;
+    left: 1rem;
+    right: 1rem;
+    color: var(--white);
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    position: absolute;
+    bottom: 2rem;
+}
 
-    }
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+}
 
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
 
-    .history {
-        margin: 0;
-    }
+header img {
+    width: 200px;
+}
 
-    .history h2 {
-        margin: .5rem;
-    }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 
-    .history img {
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    .adventures {
-        display: flex;
-        flex-direction: row;
-    }
-
-
-
-    .adventures h2 {
-        width: 100%;
-        text-align: buttom;
-
-    }
-
-    .adventures figure {
-
-        padding: .25rem;
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        justify-content: space-around;
-    }
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
-    .employees figure {
-        flex: row;
-        justify-items: center;
-    }
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a:hover {
+    background-color: unset
+}
+
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 1rem;
+}
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--secondary-color);
+}
+
+section,
+article {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--white);
+    border: 1px solid var(--accent2-color);
+    border-radius: 0.5rem;
+
+}
 
 
-    .employees h2 . {
-        grid-template-rows: auto;
-        justify-items: center;
-    }
+.history {
+    margin: 0;
+}
 
-    .btm {
-        background-color: var(--primary-color);
-        color: var(--accent2-color);
-    }
+.history h2 {
+    margin: .5rem;
+}
 
-    .btm hover {
-        background-color:
-
-    }
-
-    .btm-submit {
-        grid-column: auto;
-
-    }
-
-    .gmap {
-        grid-column: auto;
-        align-items: normal
-    }
-
-    .purpose {
-        align-self: start;
-    }
+.history img {
+    display: flex;
+    flex-direction: column;
 
 
-    .employees img {
-        justify-self: center;
-        grid-template-rows: center;
+}
 
-    }
+.adventures {
+    display: flex;
+    flex-direction: row;
+}
 
 
-    .contact form {
-        align-self: left;
-        width: 300px;
-        height: 250px;
 
-    }
+.adventures h2 {
+    width: 100%;
+    text-align: buttom;
 
-    .employees h2 {}
+}
+
+.adventures figure {
+
+    padding: .25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+
+.employees figure {
+    flex: row;
+    justify-items: center;
+}
+
+
+.employees h2 {
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.btm {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.btm hover {
+    background-color:
+
+}
+
+.btm-submit {
+    grid-column: auto;
+
+}
+
+.gmap {
+    grid-column: auto;
+    align-items: normal
+}
+
+.purpose {
+    align-self: start;
+}
+
+
+.employees img {
+    justify-self: center;
+    grid-template-rows: center;
+
+}
+
+
+.contact form {
+    align-self: left;
+    width: 300px;
+    height: 250px;
+
+}
