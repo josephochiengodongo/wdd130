@@ -237,7 +237,7 @@ article {
 
 .adventures h2 {
     width: 100%;
-    text-align: buttom;
+
 
 }
 
@@ -252,8 +252,7 @@ article {
 
 
 .employees figure {
-    flex: row;
-    justify-items: center;
+    align-self: start;
 }
 
 
@@ -268,7 +267,7 @@ article {
 }
 
 .btm hover {
-    background-color:
+    /* align-items property removed due to missing value */
 
 }
 
