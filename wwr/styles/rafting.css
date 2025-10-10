@@ -287,15 +287,12 @@ article {
 
 
 .employees img {
-    justify-self: center;
-    grid-template-rows: center;
+    grid-template-rows: auto;
 
 }
 
 
 .contact form {
-    align-self: left;
-    width: 300px;
-    height: 250px;
+    grid-template-columns: auto;
 
 }
