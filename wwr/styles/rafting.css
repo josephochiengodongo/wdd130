@@ -100,7 +100,7 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: ;
+    background-color: var(--accent1-color);
     color: #fff;
 
 }
@@ -238,17 +238,20 @@ article {
 
 .adventures h2 {
     width: 100%;
+    height: auto;
+
+
 
 
 }
 
 .adventures figure {
-
     padding: .25rem;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    justify-content: space-around;
+    gap: .1rem;
+    justify-content: baseline;
+
 }
 
 
@@ -268,8 +271,7 @@ article {
 }
 
 .btm hover {
-    /* align-items property removed due to missing value */
-
+    grid-row: auto;
 }
 
 .btm-submit {
@@ -296,4 +298,12 @@ article {
 .contact form {
     grid-template-columns: auto;
 
+}
+
+.trip h2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    gap: .1rem;
+    align-items: center;
 }
