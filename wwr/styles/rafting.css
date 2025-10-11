@@ -304,5 +304,6 @@ article {
     display: flex;
     flex-direction: row;
     gap: .1rem;
+    justify-content: space-around;
 
 }
