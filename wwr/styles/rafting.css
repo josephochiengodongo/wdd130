@@ -265,6 +265,7 @@ article {
 .btm {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    float: left;
 }
 
 .btm hover {
