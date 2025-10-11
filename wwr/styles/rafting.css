@@ -303,7 +303,6 @@ article {
 .trip figure {
     display: flex;
     flex-direction: row;
-    justify-items: stretch;
     gap: .1rem;
-    align-items: center;
+
 }
