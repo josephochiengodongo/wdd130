@@ -174,11 +174,10 @@ nav a:hover {
 }
 
 footer {
-    background-color: var(--primary-color);
-    color: var(--white);
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    align-items: left;
+    float: left;
 }
 
 footer p {
@@ -248,7 +247,7 @@ article {
     display: flex;
     flex-direction: row;
     gap: .1rem;
-    justify-content: baseline;
+    justify-content: flex-start;
 
 }
 
