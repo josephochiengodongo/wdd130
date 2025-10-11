@@ -178,7 +178,7 @@ footer {
     color: var(--white);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    align-items: center;
+    align-items: left;
 }
 
 footer p {
@@ -300,10 +300,10 @@ article {
 
 }
 
-.trip h2 {
+.trip img {
     display: flex;
-    flex-direction: column;
-    justify-items: flex-end;
+    flex-direction: row;
+    justify-items: stretch;
     gap: .1rem;
     align-items: center;
 }
