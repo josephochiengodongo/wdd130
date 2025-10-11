@@ -174,7 +174,7 @@ nav a:hover {
 }
 
 footer {
-    background-color var(--accent1-color);
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 3fr 1fr;
     float: left;
