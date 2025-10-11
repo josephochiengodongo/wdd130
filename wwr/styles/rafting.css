@@ -222,8 +222,9 @@ article {
 }
 
 .history img {
-    display: flex;
-    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-items: row;
 
 
 }
