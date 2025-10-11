@@ -174,7 +174,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: var(--accent1-color);
+    background-color: #0b7a6f;
     display: grid;
     grid-template-columns: 3fr 1fr;
     float: left;
@@ -265,11 +265,11 @@ article {
 .btm {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    float: left;
+    justify-self: left;
 }
 
 .btm hover {
-    grid-row: auto;
+    flex: auto;
 }
 
 .btm-submit {
