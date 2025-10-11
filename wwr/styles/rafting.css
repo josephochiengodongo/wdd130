@@ -300,7 +300,7 @@ article {
 
 }
 
-.trip img {
+.trip figure {
     display: flex;
     flex-direction: row;
     justify-items: stretch;
