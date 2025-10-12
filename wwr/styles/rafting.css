@@ -259,15 +259,24 @@ article {
 
 
 .employees h2 {
-    grid-template-rows: auto;
-    justify-items: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 
 
 .gmap {
     grid-column: auto;
-    align-items: normal
+    float: left;
 }
 
 .purpose {
