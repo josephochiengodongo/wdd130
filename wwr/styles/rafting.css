@@ -175,9 +175,9 @@ nav a:hover {
 
 footer {
     background-color: blue;
-    display: flex;
+    display: grid;
     grid-template-columns: 3fr 1fr;
-    float: left;
+    float: center;
 }
 
 footer p {
@@ -253,13 +253,14 @@ article {
 
 
 .employees figure {
-    align-self: start;
+    justify-self: row;
+    color: yellow;
 }
 
 
 .employees h2 {
     grid-template-rows: auto;
-    justify-items: center;
+    justify-items: row;
 }
 
 
@@ -290,5 +291,13 @@ article {
     flex-direction: row;
     gap: .1rem;
     justify-content: space-around;
+
+}
+
+.element nav {
+    background-color: blue;
+    width: 100%;
+    flex-direction: row;
+    background-attachment: fixed;
 
 }
