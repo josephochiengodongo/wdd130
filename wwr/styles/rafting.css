@@ -253,18 +253,27 @@ article {
 
 
 .employees figure {
-    justify-self: row;
-    color: yellow;
+    justify-self: bottom;
+    color: blue;
 }
 
 
 .employees h2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: row;
+
+
+}
+
+.employees img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
+
 
 .nav {
     display: flex;
@@ -295,7 +304,8 @@ article {
 
 .contact form {
     grid-template-columns: auto;
-    display: block;
+    display: top;
+    align-self: top;
 
 }
 
