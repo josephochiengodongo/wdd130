@@ -285,13 +285,17 @@ article {
 
 
 .employees img {
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
 
 .contact form {
     grid-template-columns: auto;
+    display: block;
 
 }
 
