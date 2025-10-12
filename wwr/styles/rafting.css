@@ -262,20 +262,7 @@ article {
     justify-items: center;
 }
 
-.btm {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    justify-self: left;
-}
 
-.btm hover {
-    flex: auto;
-}
-
-.btm-submit {
-    grid-column: auto;
-
-}
 
 .gmap {
     grid-column: auto;
