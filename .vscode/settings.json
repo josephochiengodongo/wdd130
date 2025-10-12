@@ -6,12 +6,13 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
+
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
   "git.confirmSync": false,
   "git.autofetch": true,
-  // "git.postCommitCommand": "sync",
+  "git.postCommitCommand": "sync",
   "scm.defaultViewMode": "list",
   "scm.repositories.visible": 0,
   
@@ -29,5 +30,8 @@
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5503
+  "liveServer.settings.port": 5503,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }

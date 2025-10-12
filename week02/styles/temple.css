@@ -1,0 +1,46 @@
+header {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5;
+} 
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb (0 0 0 /10%);
+    padding: 10px;
+    background-color: #abe;
+    font-size: .9rem;
+}
+
+footer {
+    font-size: .9rem;
+}
+
+
