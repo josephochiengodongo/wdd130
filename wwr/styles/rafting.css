@@ -236,9 +236,7 @@ article {
 
 .adventures h2 {
     width: auto;
-
-
-
+}
 
 
 .adventures figure {
@@ -253,7 +251,6 @@ article {
 
 .employees figure {
     display: inline;
-    color: auto;
 }
 
 
@@ -266,7 +263,7 @@ article {
 }
 
 .employees img {
-    display: inline-block;
+    display: inline-bloc
 }
 
 
