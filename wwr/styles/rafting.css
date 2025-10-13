@@ -285,7 +285,7 @@ article {
 
 .gmap {
     grid-column: auto;
-    float: right;
+    float: left;
 }
 
 .purpose {
@@ -294,10 +294,10 @@ article {
 
 
 .employees img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: inline;
+
+
+
 
 }
 
