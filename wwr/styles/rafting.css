@@ -254,7 +254,7 @@ article {
 
 .employees figure {
     display: block;
-    color: blue;
+    color: auto;
 }
 
 
@@ -267,10 +267,10 @@ article {
 }
 
 .employees img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: inline-block;
+
+
+
 
 }
 
