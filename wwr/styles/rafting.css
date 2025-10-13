@@ -165,7 +165,7 @@ nav a:hover {
 }
 
 .socialmedia a:hover {
-    background-color: unset
+    background-color: blue;
 }
 
 .socialmedia img {
