@@ -177,7 +177,7 @@ footer {
     background-color: blue;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    float: center;
+
 }
 
 footer p {
@@ -253,7 +253,7 @@ article {
 
 
 .employees figure {
-    justify-self: bottom;
+    display: inline;
     color: blue;
 }
 
@@ -261,7 +261,7 @@ article {
 .employees h2 {
     display: flex;
     flex-direction: row;
-    justify-content: row;
+    justify-content: center;
 
 
 }
@@ -304,8 +304,8 @@ article {
 
 .contact form {
     grid-template-columns: auto;
-    display: top;
-    align-self: top;
+    display: block;
+    text-align: center;
 
 }
 
