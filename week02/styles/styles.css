@@ -1,5 +1,5 @@
 main {
-    max-width: 840px;
+    width: 840px;
 }
 
 aside {
@@ -23,7 +23,9 @@ main img {
     height: auto;
 }
 
-p {padding: 0;}
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 15px;

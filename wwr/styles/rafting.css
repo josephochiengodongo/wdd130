@@ -285,7 +285,7 @@ article {
 
 .gmap {
     grid-column: auto;
-    float: left;
+    float: right;
 }
 
 .purpose {
