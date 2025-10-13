@@ -161,11 +161,11 @@ nav a:hover {
 }
 
 .socialmedia a {
-    text-decoration: none;
+    text-decoration: blue;
 }
 
 .socialmedia a:hover {
-    background-color: blue;
+    color: blue;
 }
 
 .socialmedia img {
@@ -322,5 +322,11 @@ article {
     width: 100%;
     flex-direction: row;
     background-attachment: fixed;
+}
 
+'
+
+
+.h3 {
+    color: blue;
 }
