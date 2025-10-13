@@ -263,7 +263,7 @@ article {
 }
 
 .employees img {
-    display: inline-bloc
+    justify-content: space-around;
 }
 
 
