@@ -294,7 +294,8 @@ article {
 
 
 .employees img {
-    display: inline;
+    display: inline-block;
+    text-align: center;
 
 
 
@@ -303,7 +304,6 @@ article {
 
 
 .contact form {
-    grid-template-columns: auto;
     display: block;
     text-align: center;
 
