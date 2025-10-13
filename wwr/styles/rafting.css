@@ -109,7 +109,7 @@ article {
     font-size: 1.2rem;
     left: 1rem;
     right: 1rem;
-    color: var(--white);
+    color: blue;
     background-color: var(--accent1-color);
     padding: 1rem;
     border: 2px solid var(--secondary-color);
@@ -228,8 +228,8 @@ article {
 }
 
 .adventures {
-    display: flex;
-    flex-direction: row;
+    display: inline;
+
 }
 
 
@@ -254,7 +254,7 @@ article {
 
 
 .employees figure {
-    display: inline;
+    display: block;
     color: blue;
 }
 
@@ -305,7 +305,7 @@ article {
 
 
 .contact form {
-    display: block;
+    display: inline;
     text-align: center;
 
 }
