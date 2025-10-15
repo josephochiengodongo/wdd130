@@ -224,11 +224,20 @@ article {
 .history img {
     display: grid;
     place-items: center;
+}
+
+
+.history p {
+    width: 36%;
 
 }
 
+
+
 .adventures {
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem, 1rem;
 
 }
 
