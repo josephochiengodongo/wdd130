@@ -206,7 +206,7 @@ section,
 article {
     margin: 1rem;
     padding: 1rem;
-    background-color: var(--white);
+    background-color: #fff;
     border: 1px solid var(--accent2-color);
     border-radius: 0.5rem;
 
