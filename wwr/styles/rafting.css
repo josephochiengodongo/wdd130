@@ -262,7 +262,7 @@ article {
 
 
 .employees figure {
-    display: grid;
+    display: flex;
 
 }
 
