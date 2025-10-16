@@ -251,11 +251,12 @@ article {
 
 
 .adventures figure {
-    padding: .25rem;
+    padding: .5rem;
     display: flex;
     flex-direction: row;
     gap: .1rem;
     justify-content: flex-start;
+    align-self: center;
 
 }
 
