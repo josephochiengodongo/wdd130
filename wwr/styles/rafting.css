@@ -224,7 +224,7 @@ article {
 .history img {
     border: 1px solid;
     box-shadow: 0 0 1px;
-    float: right;
+    float: left;
 }
 
 
