@@ -247,7 +247,7 @@ article {
 
 
 .adventures h2 {
-    align-items: baseline;
+    display: flex;
 }
 
 
