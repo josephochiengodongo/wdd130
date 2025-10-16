@@ -222,9 +222,7 @@ article {
 }
 
 .history img {
-    display: inline-block;
-    place-items: center;
-    text-align: right;
+    float: left;
 }
 
 
