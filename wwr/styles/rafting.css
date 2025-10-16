@@ -298,10 +298,7 @@ article {
 }
 
 
-.employees img {
-    display: inline-block;
-    text-align: center;
-}
+.employees img {}
 
 .btm {
     background-color: var(--primary-color);
