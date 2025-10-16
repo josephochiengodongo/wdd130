@@ -262,7 +262,7 @@ article {
 
 
 .employees figure {
-    display: flex;
+    display: inline;
     justify-content: center;
     text-align: end;
 
