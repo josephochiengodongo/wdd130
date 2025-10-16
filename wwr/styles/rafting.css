@@ -246,8 +246,7 @@ article {
 
 
 .adventures h2 {
-    width: auto;
-    justify-self: start;
+    width: 100% justify-self: start;
 }
 
 
