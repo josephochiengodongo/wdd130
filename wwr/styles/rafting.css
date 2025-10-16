@@ -271,8 +271,8 @@ article {
 
 
 .employees {
-    display: flex;
-    flex-direction: flex;
+    display: grid;
+    flex-direction: grid;
     justify-content: center;
 
 
