@@ -238,6 +238,7 @@ article {
     display: flex;
     grid-template-columns: repeat(5, 1fr);
     gap: .5ren, .25rem;
+    text-align: center;
 
 }
 
