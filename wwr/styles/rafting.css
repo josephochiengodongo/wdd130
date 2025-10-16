@@ -237,7 +237,7 @@ article {
 .adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: .5rem, .1rem;
+    gap: 0;
 
 }
 
