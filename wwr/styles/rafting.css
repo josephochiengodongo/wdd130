@@ -264,15 +264,15 @@ article {
 .employees figure {
     display: flex;
     padding: 1rem;
-    justify-content: flex-start;
+    justify-content: center;
     gap: .2rem;
 
 }
 
 
 .employees {
-    display: grid;
-    flex-direction: grid;
+    display: flex;
+    flex-direction: flex;
     justify-content: center;
 
 
