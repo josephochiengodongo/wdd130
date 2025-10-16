@@ -222,8 +222,7 @@ article {
 }
 
 .history {
-    border: 1px solid;
-    padding: 5px;
+    position: relative;
 
 
 }
