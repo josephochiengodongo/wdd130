@@ -222,7 +222,7 @@ article {
 }
 
 .history {
-    position: absolute;
+    display: flex;
 
 
 }
