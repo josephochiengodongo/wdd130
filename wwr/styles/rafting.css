@@ -230,10 +230,18 @@ article {
 
 .history p {
     width: 36%;
-
-
 }
 
+.TRIPS {
+    background-color: blue;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+
+.TRIPS:hover {
+    background-color: blue;
+}
 
 
 .adventures {
