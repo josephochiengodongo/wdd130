@@ -282,7 +282,7 @@ article {
 }
 
 .employees h2 {
-    display: grid;
+    align-self: start;
 }
 
 
