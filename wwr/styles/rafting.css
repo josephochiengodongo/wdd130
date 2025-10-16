@@ -312,6 +312,10 @@ article {
 }
 
 
+.btm:hover {
+    background-color: var(--accent1-color);
+}
+
 .contact form {
     display: inline;
     text-align: center;
