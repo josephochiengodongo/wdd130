@@ -224,6 +224,7 @@ article {
 .history img {
     display: flex;
     place-items: center;
+    text-align: right;
 }
 
 
