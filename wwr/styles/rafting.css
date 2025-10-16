@@ -267,7 +267,7 @@ article {
 }
 
 
-.employees h2 {
+.employees {
     display: flex;
     flex-direction: row;
     justify-content: center;
