@@ -205,10 +205,10 @@ footer {
 section,
 article {
     margin: 1rem;
-    padding: 2rem;
+    padding: 1px;
     background-color: yellow;
-    border: 2px solid var(--accent2-color);
-    border-radius: 1rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: 5rem;
 
 }
 
