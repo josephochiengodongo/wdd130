@@ -278,7 +278,7 @@ article {
 }
 
 .employees h2 {
-    text-align: center;
+    box-decoration-break: clone;
 }
 
 
