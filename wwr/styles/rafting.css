@@ -247,7 +247,7 @@ article {
 
 .adventures h2 {
     width: auto;
-    text-decoration: dotted;
+    justify-self: start;
 }
 
 
