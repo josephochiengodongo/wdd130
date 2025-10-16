@@ -246,8 +246,10 @@ article {
 
 
 .adventures h2 {
-    width: 100% justify-self: start;
+    align-items: baseline;
 }
+
+
 
 
 .adventures figure {
