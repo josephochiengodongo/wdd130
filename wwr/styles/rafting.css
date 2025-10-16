@@ -263,6 +263,7 @@ article {
 
 .employees figure {
     display: flex;
+    padding: 1rem;
 
 }
 
@@ -271,7 +272,7 @@ article {
     display: flex;
     flex-direction: flex;
     justify-content: center;
-    padding: 5rem;
+
 
 
 
