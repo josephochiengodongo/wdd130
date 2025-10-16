@@ -258,7 +258,7 @@ article {
     flex-direction: row;
     gap: .1rem;
     justify-content: flex-start;
-    align-self: center;
+    position: absolute;
 
 }
 
