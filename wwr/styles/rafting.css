@@ -229,7 +229,8 @@ article {
 
 
 .history p {
-    width: 100%;
+    width: 36;
+    align-items: end;
 
 }
 
