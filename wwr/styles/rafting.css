@@ -230,7 +230,7 @@ article {
 
 .history p {
     width: 36%;
-    display: flex;
+    display: block;
 
 }
 
