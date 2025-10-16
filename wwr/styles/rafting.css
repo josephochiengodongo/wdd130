@@ -110,7 +110,7 @@ article {
     left: 1rem;
     right: 1rem;
     color: blue;
-    background-color: var(--accent1-color);
+    background-color: #fff;
     padding: 1rem;
     border: 2px solid var(--secondary-color);
     position: absolute;
