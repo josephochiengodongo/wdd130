@@ -223,6 +223,7 @@ article {
 
 .history img {
     border: 1px solid;
+    padding: 5px;
 
 
 }
@@ -230,7 +231,6 @@ article {
 
 .history p {
     width: 36%;
-    display: block;
     padding: 5px;
 
 }
