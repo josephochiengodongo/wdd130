@@ -222,7 +222,7 @@ article {
 }
 
 .history img {
-    display: grid;
+    display: flex;
     place-items: center;
 }
 
@@ -252,7 +252,7 @@ article {
 
 .adventures figure {
     padding: .5rem;
-    display: flex;
+    display: inline;
     flex-direction: row;
     gap: .1rem;
     justify-content: flex-start;
