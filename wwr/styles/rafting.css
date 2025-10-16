@@ -263,9 +263,9 @@ article {
 
 .employees figure {
     display: flex;
-    padding: .5rem;
+    padding: 1rem;
     justify-content: flex-start;
-    gap: .5rem;
+    gap: .2rem;
 
 }
 
