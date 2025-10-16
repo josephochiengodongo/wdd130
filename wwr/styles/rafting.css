@@ -209,8 +209,10 @@ article {
     background-color: #fff;
     border: 2px solid var(--accent2-color);
     border-radius: .1rem;
-
 }
+
+
+.adventure h2 {}
 
 
 
@@ -293,63 +295,61 @@ article {
 
 
 
-}
-
-.employees h2 {
-    align-self: start;
-}
+    .employees h2 {
+        align-self: start;
+    }
 
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
 
 
 
-.gmap {
-    grid-column: auto;
-    float: left;
-}
+    .gmap {
+        grid-column: auto;
+        float: left;
+    }
 
-.purpose {
-    align-self: start;
-}
+    .purpose {
+        align-self: start;
+    }
 
 
 
 
-.btm {
-    background-color: var(--primary-color);
-    color: var(--white);
-    padding: 1rem 2rem;
-    border: none;
-    cursor: pointer;
-}
+    .btm {
+        background-color: var(--primary-color);
+        color: var(--white);
+        padding: 1rem 2rem;
+        border: none;
+        cursor: pointer;
+    }
 
 
-.btm:hover {
-    background-color: var(--accent1-color);
-}
+    .btm:hover {
+        background-color: var(--accent1-color);
+    }
 
-.contact form {
-    display: inline;
-    text-align: center;
+    .contact form {
+        display: inline;
+        text-align: center;
 
-}
+    }
 
-.trip figure {
-    display: flex;
-    flex-direction: row;
-    gap: .1rem;
-    justify-content: space-around;
+    .trip figure {
+        display: flex;
+        flex-direction: row;
+        gap: .1rem;
+        justify-content: space-around;
 
-}
+    }
 
-.element nav {
-    background-color: blue;
-    width: 100%;
-    flex-direction: row;
-    background-attachment: fixed;
-}
+    .element nav {
+        background-color: blue;
+        width: 100%;
+        flex-direction: row;
+        background-attachment: fixed;
+    }
