@@ -206,7 +206,7 @@ section,
 article {
     margin: 1rem;
     padding: 1rem;
-    background-color: #fff;
+    background-color: yellow;
     border: 1px solid var(--accent2-color);
     border-radius: 1rem;
 
