@@ -229,8 +229,8 @@ article {
 
 
 .history p {
-    width: 18;
-    align-items: end;
+    width: 36%;
+    display: flex;
 
 }
 
