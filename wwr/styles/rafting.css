@@ -255,7 +255,7 @@ article {
 
 
 .adventures h1 {
-    display: inline;
+    display: flex;
     text-align: center;
     padding: 1rem;
 }
