@@ -258,6 +258,7 @@ article {
     display: inline-block;
     flex-direction: row;
     padding: .1rem;
+    text-align: end;
 
 }
 
