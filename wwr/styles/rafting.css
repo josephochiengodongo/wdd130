@@ -251,7 +251,41 @@ article {
     gap: .25rem .25rem;
     text-align: center;
 
-}
+
+
+
+    .adventures h2 {
+        display: flex;
+    }
+
+
+
+
+    .adventures figure {
+        display: grid;
+        text-align: left;
+    }
+
+
+
+
+
+
+    .employees figure {
+        display: inline;
+        justify-content: center;
+        text-align: end;
+        margin: .1rem;
+        padding: .1rem;
+
+
+    }
+
+
+    .employees {
+        display: flex;
+        justify-content: center;
+    }
 
 
 
@@ -259,104 +293,57 @@ article {
 
 
 
-
-.adventures p {
-    text-shadow: #04083e;
-}
-
-
-
-
-.adventures h2 {
-    display: flex;
-}
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
 
 
 
 
-.adventures figure {
-    display: grid;
-    text-align: right;
-}
+    .gmap {
+        grid-column: auto;
+        float: left;
+    }
+
+
+
+    .purpose {
+        align-self: start;
+    }
 
 
 
 
+    .btm {
+        background-color: var(--primary-color);
+        color: green;
+        padding: 1rem 2rem;
+        border: none;
+        cursor: pointer;
+    }
 
 
-.employees figure {
-    display: inline;
-    justify-content: center;
-    text-align: end;
-    margin: .1rem;
-    padding: .1rem;
-
-
-}
-
-
-.employees {
-    display: flex;
-    justify-content: center;
-}
+    .btm:hover {
+        background-color: var(--accent1-color);
+    }
 
 
 
 
+    .contact form {
+        display: inline;
+        text-align: center;
+
+
+    }
 
 
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-
-
-
-.gmap {
-    grid-column: auto;
-    float: left;
-}
-
-
-
-.purpose {
-    align-self: start;
-}
-
-
-
-
-.btm {
-    background-color: var(--primary-color);
-    color: green;
-    padding: 1rem 2rem;
-    border: none;
-    cursor: pointer;
-}
-
-
-.btm:hover {
-    background-color: var(--accent1-color);
-}
-
-
-
-
-.contact form {
-    display: inline;
-    text-align: center;
-
-
-}
-
-
-
-.element nav {
-    background-color: blue;
-    width: 100%;
-    flex-direction: row;
-    background-attachment: fixed;
-}
+    .element nav {
+        background-color: blue;
+        width: 100%;
+        flex-direction: row;
+        background-attachment: fixed;
+    }
