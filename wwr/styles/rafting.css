@@ -276,7 +276,7 @@ article {
 
 .adventures figure {
     padding: .1rem;
-    display: inline-block;
+    display: block;
     flex-direction: row;
     gap: .1rem;
     justify-content: flex-start;
