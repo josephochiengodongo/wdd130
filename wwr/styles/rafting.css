@@ -250,100 +250,101 @@ article {
     grid-auto-flow: column;
     gap: .25rem .25rem;
     text-align: center;
+}
 
 
 
 
-    .adventures h2 {
-        display: flex;
-    }
+.adventures h2 {
+    display: flex;
+}
 
 
 
 
-    .adventures figure {
-        display: grid;
-        text-align: left;
-    }
-
-
-
-
-
-
-    .employees figure {
-        display: flex;
-        justify-content: center;
-        text-align: end;
-        margin: .1rem;
-        padding: .1rem;
-
-
-    }
-
-
-    .employees {
-        display: flex;
-        justify-content: center;
-    }
+.adventures figure {
+    display: grid;
+    text-align: left;
+}
 
 
 
 
 
 
-
-    .nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
-
-
+.employees figure {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    margin: .1rem;
+    padding: .1rem;
 
 
-    .gmap {
-        grid-column: auto;
-        float: left;
-    }
+}
 
 
-
-    .purpose {
-        align-self: start;
-    }
+.employees {
+    display: grid;
+    grid-template-rows: repeat(4fr, 1fr);
+}
 
 
 
 
-    .btm {
-        background-color: var(--primary-color);
-        color: green;
-        padding: 1rem 2rem;
-        border: none;
-        cursor: pointer;
-    }
 
 
-    .btm:hover {
-        background-color: var(--accent1-color);
-    }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
 
 
 
 
-    .contact form {
-        display: inline;
-        text-align: center;
-
-
-    }
+.gmap {
+    grid-column: auto;
+    float: left;
+}
 
 
 
-    .element nav {
-        background-color: blue;
-        width: 100%;
-        flex-direction: row;
-        background-attachment: fixed;
-    }
+.purpose {
+    align-self: start;
+}
+
+
+
+
+.btm {
+    background-color: var(--primary-color);
+    color: green;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btm:hover {
+    background-color: var(--accent1-color);
+}
+
+
+
+
+.contact form {
+    display: inline;
+    text-align: center;
+
+
+}
+
+
+
+.element nav {
+    background-color: blue;
+    width: 100%;
+    flex-direction: row;
+    background-attachment: fixed;
+}
