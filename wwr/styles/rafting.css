@@ -246,8 +246,7 @@ article {
 
 
 .adventures {
-    display: block;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
     gap: .25rem .25rem;
     text-align: center;
 
