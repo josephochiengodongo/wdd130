@@ -246,7 +246,7 @@ article {
 
 
 .adventures {
-    display: flex;
+    display: inline-flex;
     gap: .25rem .25rem;
     text-align: center;
 
