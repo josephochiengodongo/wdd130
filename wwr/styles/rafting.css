@@ -256,7 +256,7 @@ article {
 
 .adventures h1 {
     display: inline;
-    grid-template-columns: repeate(4, 1fr);
+    grid-template-columns: repeate(3, 1fr);
     text-align: center;
 }
 
