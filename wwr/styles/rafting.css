@@ -232,7 +232,7 @@ article {
     width: 36%;
 }
 
-.TRIPS {
+.btn {
     background-color: blue;
     padding: 1rem 2rem;
     cursor: pointer;
@@ -240,7 +240,7 @@ article {
 }
 
 
-.TRIPS:hover {
+.btm:hover {
     background-color: blue;
 }
 
