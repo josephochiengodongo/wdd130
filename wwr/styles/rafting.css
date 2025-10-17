@@ -345,17 +345,11 @@ article {
 
     }
 
-    .trip figure {
-        display: flex;
-        flex-direction: row;
-        gap: .1rem;
-        justify-content: space-around;
+}
 
-    }
-
-    .element nav {
-        background-color: blue;
-        width: 100%;
-        flex-direction: row;
-        background-attachment: fixed;
-    }
+.element nav {
+    background-color: blue;
+    width: 100%;
+    flex-direction: row;
+    background-attachment: fixed;
+}
