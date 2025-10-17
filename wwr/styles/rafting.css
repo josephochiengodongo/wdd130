@@ -284,7 +284,7 @@ article {
     justify-content: center;
     text-align: end;
     margin: .1rem;
-    padding: .2rem;
+    padding: .1rem;
 
 
 }
@@ -294,6 +294,7 @@ article {
     display: flex;
     flex-direction: flex;
     justify-content: center;
+}
 
 
 
@@ -301,46 +302,52 @@ article {
 
 
 
-    .nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-    }
-
-
-
-    .gmap {
-        grid-column: auto;
-        float: left;
-    }
-
-    .purpose {
-        align-self: start;
-    }
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
 
 
 
 
-    .btm {
-        background-color: var(--primary-color);
-        color: green;
-        padding: 1rem 2rem;
-        border: none;
-        cursor: pointer;
-    }
+.gmap {
+    grid-column: auto;
+    float: left;
+}
 
 
-    .btm:hover {
-        background-color: var(--accent1-color);
-    }
 
-    .contact form {
-        display: inline;
-        text-align: center;
+.purpose {
+    align-self: start;
+}
 
-    }
+
+
+
+.btm {
+    background-color: var(--primary-color);
+    color: green;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btm:hover {
+    background-color: var(--accent1-color);
+}
+
+
+
+
+.contact form {
+    display: inline;
+    text-align: center;
 
 }
+
+
 
 .element nav {
     background-color: blue;
