@@ -279,7 +279,7 @@ article {
     display: grid;
     flex-direction: row;
     gap: .1rem;
-    justify-content: flex-start;
+
 
 
 }
