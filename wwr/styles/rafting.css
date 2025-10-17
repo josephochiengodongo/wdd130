@@ -256,7 +256,7 @@ article {
 
 .adventures h1 {
     display: inline-block;
-    flex-direction: row;
+    flex-direction: column;
     padding: .1rem;
     text-align: start;
 
