@@ -255,15 +255,14 @@ article {
 
 
 .adventures h1 {
-    display: inline-block;
+    display: flexbox;
     padding: 1px;
     justify-content: center;
 }
 
 
-.adventures img h1 {
-    text-align: center;
-}
+
+
 
 .adventures h2 {
     display: flex;
