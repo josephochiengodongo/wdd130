@@ -273,8 +273,8 @@ article {
 
 
 .employees figure {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
     text-align: end;
     margin: .1rem;
     padding: .1rem;
