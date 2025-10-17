@@ -277,7 +277,7 @@ article {
 .adventures figure {
     padding: .1rem;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-rows: repeat(1/3);
     gap: .1rem;
 
 
