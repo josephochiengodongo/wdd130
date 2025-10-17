@@ -292,7 +292,6 @@ article {
 
 .employees {
     display: flex;
-    flex-direction: flex;
     justify-content: center;
 }
 
