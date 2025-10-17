@@ -261,6 +261,10 @@ article {
 }
 
 
+.adventures img h1 {
+    text-align: center;
+}
+
 .adventures h2 {
     display: flex;
 }
