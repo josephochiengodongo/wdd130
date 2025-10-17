@@ -274,11 +274,13 @@ article {
 
 
 
-.adventures figure {}
-
-
-
+.adventures figure {
+    display: grid;
 }
+
+
+
+
 
 
 .employees figure {
