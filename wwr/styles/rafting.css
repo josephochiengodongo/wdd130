@@ -276,6 +276,7 @@ article {
 
 .adventures figure {
     display: grid;
+    text-align: right;
 }
 
 
