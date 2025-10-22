@@ -284,7 +284,7 @@ article {
 
 
 .employees {
-    display: grid;
+    display: flex;
     grid-template-rows: repeat(4fr, 1fr);
 }
 
