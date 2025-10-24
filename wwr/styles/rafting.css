@@ -283,10 +283,8 @@ article {
 
 
 .employees figure {
-    display: flex;
-    grid-template-columns: repeat(4fr 1fr);
-    text-align: end;
-    margin: .1rem;
+    width: 200px;
+    justify-self: center;
 
 
 
