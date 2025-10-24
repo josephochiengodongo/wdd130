@@ -359,3 +359,11 @@ article {
     flex-direction: row;
     background-attachment: fixed;
 }
+
+.purpose fieldset {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1.25rem;
+    border: none;
+
+}
