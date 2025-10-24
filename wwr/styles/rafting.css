@@ -304,6 +304,14 @@ article {
     justify-self: center;
 }
 
+.employees img {
+    border-radius: 50%;
+    border: 4px solid var(--accent2-color);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 
 
