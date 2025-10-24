@@ -314,8 +314,9 @@ article {
 
 
 .gmap {
-    grid-column: auto;
-    float: left;
+    grid-column: 1/-1;
+    grid-row: 2;
+    border: 0;
 }
 
 
