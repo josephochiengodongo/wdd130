@@ -82,6 +82,8 @@ header {
 nav a {
     color:white;
     padding:20px;
+    text-decoration: none;
+    font-weight: bold;
 
 }
 
