@@ -75,14 +75,13 @@ header {
     margin-bottom: 20px;
     background-color: darkblue;
     color: white;
-    text-align: justify;
+
 }
 
 
 nav a {
     color:white;
     padding:20px;
-    flex-wrap: ;
 
 }
 
