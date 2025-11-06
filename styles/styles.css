@@ -1,0 +1,76 @@
+main {
+    width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150;
+    height: auto;
+}
+
+p {
+    padding:0 ;
+
+}
+
+header,footer {
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    color: #222;
+}
+
+h2 {
+    border-bottom: 1px solid #222;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: aqua;
+}
+
+section {
+    margin: 20px;
+    border: 1px solid rgb(0 0 0/10%);
+    padding: 10px;
+    background-color: #abe;
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+}
+
+nav a {
+    color:white;
+    padding:20px;
+    display: block;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
