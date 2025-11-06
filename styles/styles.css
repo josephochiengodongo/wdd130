@@ -78,13 +78,13 @@ nav a {
     padding:20px;
     text-decoration: none;
     font-weight: bold;
+    display: block;
 
 }
 
 nav {
     background-color: darkblue;
     padding: 10px;
-    display: block;
 }
 
 
