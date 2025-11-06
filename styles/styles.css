@@ -64,6 +64,7 @@ footer {
     border-top: 1px solid #000;
     background-color: darkblue;
     color: white;
+    text-align: center;
 }
 
 nav a {
