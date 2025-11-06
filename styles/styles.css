@@ -63,7 +63,7 @@ section p {
     margin: 10px;
 }
 
-footer {
+footer, header {
     margin-top: 15px;
     border-top: 1px solid #000;
     background-color: darkblue;
@@ -80,6 +80,10 @@ nav a {
 nav {
     background-color: darkblue;
     padding: 10px;
+}
+
+header {
+
 }
 
 
