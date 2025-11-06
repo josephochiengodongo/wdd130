@@ -82,7 +82,7 @@ header {
 nav a {
     color:white;
     padding:20px;
-    display: inline-block;
+    display: inline;
 }
 
 nav {
