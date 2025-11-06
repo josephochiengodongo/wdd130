@@ -77,3 +77,8 @@ nav {
     background-color: darkblue;
     padding: 10px;
 }
+
+nav a:hover {
+    background-color: blue;
+    color: yellow;
+}
