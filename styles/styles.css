@@ -63,13 +63,21 @@ section p {
     margin: 10px;
 }
 
-footer, header {
+footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     background-color: darkblue;
     color: white;
     text-align: center;
 }
+
+header {
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
 
 nav a {
     color:white;
@@ -82,8 +90,5 @@ nav {
     padding: 10px;
 }
 
-header {
-
-}
 
 
