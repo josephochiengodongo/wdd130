@@ -84,6 +84,7 @@ nav a {
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: block;
 }
 
 
