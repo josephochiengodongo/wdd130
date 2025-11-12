@@ -21,13 +21,6 @@
     /* Black color */
     --black: #0e0c0c;
 
-    /* Button Background color */
-    --button-color: #714a0e;
-    --button-color-hover: #04083e;
-
-    --cta-button-color: #1bdd01;
-    --cta-button-color-hover: #04083e;
-
     /* Top Navigation Colors */
     /* Background color for navigation bar */
     --nav-background-color: var(--accent2-color);
