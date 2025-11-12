@@ -12,14 +12,10 @@
     /* Accent color 2 */
     --accent2-color: #3d816a;
 
-    /* Accent color 3 */
-    --accent3-color: #254768;
 
     /* White color */
     --white: #f3eded;
 
-    /* Black color */
-    --black: #0e0c0c;
 
 
     /* Font for heading */
@@ -151,8 +147,8 @@ nav ul {
 }
 
 nav a:hover {
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+    background-color: blue;
+    color:white;
 }
 
 .socialmedia a {
