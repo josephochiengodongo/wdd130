@@ -1,25 +1,49 @@
-:root {
-    /* Color palette */
+ot {
+    /* Dark color for primary text */
     --primary-color: #1157ab;
-    /* blue */
-    --secondary-color: #f4a261;
-    /* warm sand / accent */
-    --accent-color: #264653;
-    /* dark slate */
-    --text-color: #1f2937;
-    /* dark gray for body text */
-    --bg-color: #ffffff;
 
-    /* Typography */
-    --heading-font: "Times New Roman", Georgia, serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    /* Secondary color,slightly lighter */
+    --secondary-color: #622e30;
 
-    /* Layout */
-    --max-width: 840px;
-    --gutter: 16px;
+    /* Accent color 1 */
+    --accent1-color: #c04647;
+
+    /* Accent color 2 */
+    --accent2-color: #3d816a;
+
+    /* Accent color 3 */
+    --accent3-color: #254768;
+
+    /* White color */
+    --white: #f3eded;
+
+    /* Black color */
+    --black: #0e0c0c;
+
+    /* Button Background color */
+    --button-color: #714a0e;
+    --button-color-hover: #04083e;
+
+    --cta-button-color: #1bdd01;
+    --cta-button-color-hover: #04083e;
+
+    /* Top Navigation Colors */
+    /* Background color for navigation bar */
+    --nav-background-color: var(--accent2-color);
+    /* Color for navigation links */
+    --nav-link-color: #fff;
+    /* Hover color for links */
+    --nav-hover-link-color: var(--accent2-color);
+    /*Background color on hover for navigation links */
+    --nav-hover-background-color: #fff;
+
+    /* Font for heading */
+    --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Font for paragraph */
+    --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Global reset */
+/* Global selectors moved outside :root */
 * {
     margin: 0;
     padding: 0;
@@ -28,42 +52,37 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    line-height: 1.5;
+    color: var(--accent1-color);
 }
 
-/* Headings */
+
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-/* Layout wrappers */
-header,
-main,
-footer {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding-left: var(--gutter);
-    padding-right: var(--gutter);
+    color: var(--primary-color)
 }
 
 nav,
 p,
 section,
 article {
-    margin: 16px 0;
-    padding: 8px 0;
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
-    text-decoration: none;
-    color: var(--primary-color);
+    text-decoration: none
 }
 
-/* Hero */
+.socialmedia a:hover {
+    background-color: unset;
+}
+
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
 .hero {
     position: relative;
 }
@@ -77,17 +96,294 @@ article {
 .hero h1 {
     position: absolute;
     top: 20px;
-    left: 0;
-    right: 0;
+    width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: var(--accent-color);
+    opacity: 0.7;
+    background-color: var(--accent1-color);
     color: #fff;
-    opacity: 0.95;
+
+}
+
+.hero article {
+    font-size: 1.2rem;
+    left: 1rem;
+    right: 1rem;
+    color: blue;
+    background-color: #fff;
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    position: absolute;
+    bottom: 2rem;
 }
 
 .hero article img {
     float: right;
     width: 125px;
-    margin-left: 12px;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+header img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+.socialmedia a {
+    text-decoration: blue;
+}
+
+.socialmedia a:hover {
+    color: blue;
+}
+
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
+footer {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: .1rem;
+
+}
+
+footer p {
+    margin-left: 1rem;
+}
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    position: absolute;
+    border-top-width: 4rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: green;
+}
+
+section,
+article {
+    margin: .1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid var(--accent2-color);
+    border-radius: .1rem;
+}
+
+.contact-form {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 2rem 1rem;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+.history h2 {
+    margin: .5rem;
+}
+
+.history {
+    display: flex;
+
+
+}
+
+
+.history p {
+    width: 36%;
+}
+
+.btn {
+    background-color: blue;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.btm:hover {
+    background-color: blue;
+}
+
+
+.adventures {
+    display: grid;
+    grid-auto-flow: column;
+    gap: .25rem .25rem;
+    text-align: center;
+}
+
+
+
+
+.adventures h2 {
+    display: flex;
+}
+
+
+
+
+.adventures figure {
+    display: grid;
+    text-align: left;
+}
+
+
+
+
+
+
+.employees figure {
+    width: 250px;
+    justify-self: center;
+
+
+
+}
+
+
+.employees {
+    grid-column: 1/3;
+    /* grid-column:1/-1; grid-column:1/span 2;*/
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.employees h2 {
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
+.employees img {
+    border-radius: 50%;
+    border: 4px solid var(--accent2-color);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+
+
+.gmap {
+    grid-column: 1/-1;
+    grid-row: 2;
+    border: 0;
+}
+
+
+
+.purpose {
+    align-self: start;
+}
+
+
+
+
+.btm {
+    background-color: var(--primary-color);
+    color: green;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btm:hover {
+    background-color: var(--accent1-color);
+}
+
+.full-w {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+}
+
+.purpose p {
+    justify-self: start;
+}
+
+.subscribe {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+.element nav {
+    background-color: blue;
+    width: 100%;
+    flex-direction: row;
+    background-attachment: fixed;
+}
+
+.purpose fieldset {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1.25rem;
+    border: none;
+
 }
