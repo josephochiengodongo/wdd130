@@ -51,8 +51,8 @@
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    background-color: blue;
+    color: white;
 }
 /* Global selectors moved outside :root */
 * {
@@ -140,7 +140,7 @@ header {
     align-items: center;
     gap: 1rem;
     background-color: blue;
-    color: var(--accent1-color);
+    color: white;
 }
 
 header img {
