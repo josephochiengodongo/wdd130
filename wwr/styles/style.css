@@ -139,7 +139,7 @@ header {
     grid-template-columns: 200px auto;
     align-items: center;
     gap: 1rem;
-    background-color: var(--accent2-color);
+    background-color: blue;
     color: var(--accent1-color);
 }
 
