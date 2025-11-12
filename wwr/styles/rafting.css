@@ -161,3 +161,8 @@ footer {
     grid-template-columns: 3fr 1fr;
     border-radius: .1rem;
 }
+
+header,main,footer {
+    width: 840px;
+    margin: 0 auto;
+}
