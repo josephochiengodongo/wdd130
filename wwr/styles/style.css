@@ -21,15 +21,6 @@
     /* Black color */
     --black: #0e0c0c;
 
-    /* Top Navigation Colors */
-    /* Background color for navigation bar */
-    --nav-background-color: var(--accent2-color);
-    /* Color for navigation links */
-    --nav-link-color: #fff;
-    /* Hover color for links */
-    --nav-hover-link-color: var(--accent2-color);
-    /*Background color on hover for navigation links */
-    --nav-hover-background-color: #fff;
 
     /* Font for heading */
     --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
