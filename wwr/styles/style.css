@@ -63,4 +63,40 @@ h2 {
     color: var(--primary-color)
 }
 
+header,main,footer {
+    width: 840;
+    margin:0 auto;
+}
+
+
+nav,p,section,article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
 
