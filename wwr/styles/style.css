@@ -1,41 +1,25 @@
 :root {
-    /* Dark color for primary text */
+    /* Color palette */
     --primary-color: #1157ab;
+    /* blue */
+    --secondary-color: #f4a261;
+    /* warm sand / accent */
+    --accent-color: #264653;
+    /* dark slate */
+    --text-color: #1f2937;
+    /* dark gray for body text */
+    --bg-color: #ffffff;
 
-    /* Secondary color,slightly lighter */
-    --secondary-color: #622e30;
+    /* Typography */
+    --heading-font: "Times New Roman", Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
 
-    /* Accent color 1 */
-    --accent1-color: #c04647;
-
-    /* Accent color 2 */
-    --accent2-color: #3d816a;
-
-    /* Accent color 3 */
-    --accent3-color: #254768;
-
-    /* White color */
-    --white: #f3eded;
-
-    /* Black color */
-    --black: #0e0c0c;
-  /* Top Navigation Colors */
-    /* Background color for navigation bar */
-    --nav-background-color: var(--accent2-color);
-    /* Color for navigation links */
-    --nav-link-color: #fff;
-    /* Hover color for links */
-    --nav-hover-link-color: var(--accent2-color);
-    /*Background color on hover for navigation links */
-    --nav-hover-background-color: #fff;
-
-    /* Font for heading */
-    --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* Font for paragraph */
-    --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
+    /* Layout */
+    --max-width: 840px;
+    --gutter: 16px;
 }
 
-/* Global selectors moved outside :root */
+/* Global reset */
 * {
     margin: 0;
     padding: 0;
@@ -44,32 +28,42 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
 }
 
-
+/* Headings */
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
-header,main,footer {
-    width: 840;
-    margin:0 auto;
+/* Layout wrappers */
+header,
+main,
+footer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
 }
 
-
-nav,p,section,article {
-    margin: 16px;
-    padding: 8px;
+nav,
+p,
+section,
+article {
+    margin: 16px 0;
+    padding: 8px 0;
 }
 
 .socialmedia a {
     text-decoration: none;
+    color: var(--primary-color);
 }
 
-
+/* Hero */
 .hero {
     position: relative;
 }
@@ -78,21 +72,22 @@ nav,p,section,article {
     display: block;
     width: 100%;
     height: auto;
-
 }
-h1 {
+
+.hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
+    left: 0;
+    right: 0;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color:#fff;
+    background-color: var(--accent-color);
+    color: #fff;
+    opacity: 0.95;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 12px;
 }
-
