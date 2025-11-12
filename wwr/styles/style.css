@@ -1,28 +1,47 @@
-/* Root CSS variables and a few base rules for the WWR site */
 :root {
-	/* Colors */
-	--color-primary: #0b72b9; /* deep blue */
-	--color-accent: #f29b30;  /* warm orange */
-	--color-muted: #6b7280;   /* gray for secondary text */
-	--color-bg: #ffffff;
-	--color-surface: #f7f7f9;
 
-	/* Typography */
-	--font-family-sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	--text-color: #1f2937;
+  /* Dark color for primary text */
+    --primary-color: #1157ab;
 
-	/* Layout */
-	--max-width: 1100px;
-	--gutter: 1.25rem;
-	--radius: 6px;
+    /* Secondary color,slightly lighter */
+    --secondary-color: #622e30;
 
-	/* Motion */
-	--transition-fast: 150ms ease-in-out;
-}
+    /* Accent color 1 */
+    --accent1-color: #c04647;
 
-/* Basic resets and sensible defaults that use the variables */
-*, *::before, *::after {
-	box-sizing: border-box;
+    /* Accent color 2 */
+    --accent2-color: #3d816a;
+
+    /* Accent color 3 */
+    --accent3-color: #254768;
+
+    /* White color */
+    --white: #f3eded;
+
+    /* Black color */
+    --black: #0e0c0c;
+
+    /* Button Background color */
+    --button-color: #714a0e;
+    --button-color-hover: #04083e;
+
+    --cta-button-color: #1bdd01;
+    --cta-button-color-hover: #04083e;
+
+    /* Top Navigation Colors */
+    /* Background color for navigation bar */
+    --nav-background-color: var(--accent2-color);
+    /* Color for navigation links */
+    --nav-link-color: #fff;
+    /* Hover color for links */
+    --nav-hover-link-color: var(--accent2-color);
+    /*Background color on hover for navigation links */
+    --nav-hover-background-color: #fff;
+
+    /* Font for heading */
+    --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Font for paragraph */
+    --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 html, body {
 	height: 100%;
