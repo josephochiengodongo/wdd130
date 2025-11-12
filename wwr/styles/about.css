@@ -1,0 +1,130 @@
+/* Page-specific styles for about.html */
+/* Uses variables declared in styles/style.css */
+
+.container--narrow {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+header img {
+    height: 60px;
+}
+
+nav a {
+    margin-left: 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+    padding: 12px 18px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    color: #fff;
+    margin: 0;
+}
+
+.hero article {
+    max-width: calc(var(--max-width) - 40px);
+    margin: -80px auto 0;
+    /* pull up over the hero */
+    background: var(--bg-color);
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.hero article img {
+    width: 140px;
+    height: auto;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.hero article p {
+    margin: 0;
+}
+
+main section {
+    padding: 28px 0;
+}
+
+main section h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+footer {
+    background: var(--accent-color);
+    color: #fff;
+    padding: 14px 0;
+}
+
+footer p {
+    margin-left: var(--gutter);
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: var(--gutter);
+}
+
+footer .socialmedia img {
+    width: 28px;
+    height: auto;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 720px) {
+    .hero img {
+        height: 220px;
+    }
+
+    .hero article {
+        flex-direction: column;
+        margin-top: -60px;
+    }
+
+    .hero article img {
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    header {
+        padding: 8px 0;
+    }
+
+    header img {
+        height: 48px;
+    }
+}
