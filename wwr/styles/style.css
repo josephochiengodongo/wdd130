@@ -54,6 +54,143 @@ header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
 }
+/* Global selectors moved outside :root */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none
+}
+
+.socialmedia a:hover {
+    background-color: unset;
+}
+
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+
+}
+
+.hero article {
+    font-size: 1.2rem;
+    left: 1rem;
+    right: 1rem;
+    color: blue;
+    background-color: #fff;
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    position: absolute;
+    bottom: 2rem;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+header img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+.socialmedia a {
+    text-decoration: blue;
+}
+
+.socialmedia a:hover {
+    color: blue;
+}
+
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
+
+footer {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: .1rem;
+
+
 
 
 
