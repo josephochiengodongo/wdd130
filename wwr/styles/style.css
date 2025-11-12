@@ -1,0 +1,65 @@
+/* Root CSS variables and a few base rules for the WWR site */
+:root {
+	/* Colors */
+	--color-primary: #0b72b9; /* deep blue */
+	--color-accent: #f29b30;  /* warm orange */
+	--color-muted: #6b7280;   /* gray for secondary text */
+	--color-bg: #ffffff;
+	--color-surface: #f7f7f9;
+
+	/* Typography */
+	--font-family-sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	--text-color: #1f2937;
+
+	/* Layout */
+	--max-width: 1100px;
+	--gutter: 1.25rem;
+	--radius: 6px;
+
+	/* Motion */
+	--transition-fast: 150ms ease-in-out;
+}
+
+/* Basic resets and sensible defaults that use the variables */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-family-sans);
+	color: var(--text-color);
+	background-color: var(--color-bg);
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+/* Utility container to center content */
+.container {
+	width: 100%;
+	max-width: var(--max-width);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+}
+
+/* Small accessible focus style */
+:focus {
+	outline: 3px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+	outline-offset: 2px;
+}
+
+/* End of base stylesheet */
+
