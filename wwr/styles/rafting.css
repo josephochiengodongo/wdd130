@@ -39,7 +39,7 @@ body {
 
 h1,
 h2 {
-    font-family:light green;
+    font-family:var(--heading-font);
     color: var(--primary-color)
 }
 
@@ -81,7 +81,7 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: lightgreen;
     color: #fff;
 
 }
