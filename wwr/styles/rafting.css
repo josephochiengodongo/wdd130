@@ -39,7 +39,7 @@ body {
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family:greenish;
     color: var(--primary-color)
 }
 
