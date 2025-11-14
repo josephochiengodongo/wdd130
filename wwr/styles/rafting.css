@@ -163,6 +163,6 @@ footer {
 }
 
 header,main,footer {
-    width: 100%;
+    width: 900px;
     margin: 0 auto;
 }
