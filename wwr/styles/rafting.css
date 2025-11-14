@@ -165,5 +165,5 @@ footer {
 header,main,footer {
     width: 900px;
     margin: 0 auto;
-    border-radius: .1rem
+    border-radius: .1rem;
 }
