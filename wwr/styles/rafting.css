@@ -171,6 +171,8 @@ header,main,footer {
 .history {
     display: flex;
     justify-items: center;
+    position: absolute;
+    top: 5px;
     
 
 }
