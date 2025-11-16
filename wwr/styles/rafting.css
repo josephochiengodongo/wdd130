@@ -170,6 +170,8 @@ header,main,footer {
 
 .history {
     display: flex;
+    align-items: center;
+
 }
 
 .history p {
