@@ -185,8 +185,7 @@ align-self: left;
 
 .history h2 {
     margin: .5rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    position:absolute;
+    left: 30px;
 }
 
