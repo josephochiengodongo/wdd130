@@ -169,8 +169,8 @@ header,main,footer {
 }
 
 .history {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    right: 50px;
 
 }
 
@@ -183,6 +183,7 @@ header,main,footer {
 .history h2 {
     margin: .5;
     position:;
-    top:30px;
+    bottom:10px;
+    left: 60px;
 }
 
