@@ -184,9 +184,9 @@ width: 36%;
 
 .history h2 {
     margin: .5;
-    position: ;
-    right: 80px;
-    bottom: 600px;
+    position: absolute;
+    right: 10px;
+    
     
     
 
