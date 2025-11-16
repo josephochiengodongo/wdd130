@@ -183,8 +183,9 @@ width: 36%;
 
 
 .history h2 {
-    position: absolute;
-    left: px;
+    position: relative;
+    right: 5;
+    
 
     
     
