@@ -167,3 +167,17 @@ header,main,footer {
     margin: 0 auto;
 
 }
+
+.history {
+    display: flex;
+}
+
+.history p {
+    width: 36%;
+
+}
+
+
+.history p {
+    margin: .5;
+}
