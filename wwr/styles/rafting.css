@@ -171,6 +171,7 @@ header,main,footer {
 .history {
     display: flex;
     justify-items: center;
+    text-align: justify;
     
     
 
@@ -178,18 +179,12 @@ header,main,footer {
 
 .history p {
 width: 36%;
-text-align: left;
+
 
 }
 
 
 .history h2 {
-    
-    
-
-    
-    
-    
-
+    margin: .5rem;
 }
 
