@@ -168,11 +168,9 @@ header,main,footer {
 
 }
 
-.history {
+.history image {
     display: flex;
-    justify-items: center;
-    text-align: justify;
-    
+    justify-content: center;
     
 
 }
