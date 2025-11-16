@@ -174,13 +174,13 @@ header,main,footer {
 
 }
 
-.history h2 {
+.history p {
     width: 36%;
 
 }
 
 
-.history p {
+.history h2 {
     margin: .5;
 }
 
