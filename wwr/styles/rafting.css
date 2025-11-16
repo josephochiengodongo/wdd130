@@ -169,9 +169,8 @@ header,main,footer {
 }
 
 .history image {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    position: absolute;
+    left: 200px;
 
 
 }
