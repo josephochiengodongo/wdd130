@@ -28,7 +28,7 @@ nav a {
     color: #fff;
 }
 
-h {
+h1 {
     margin-bottom: 0;
     border-bottom: 0;
 
@@ -104,4 +104,13 @@ footer {
     margin-top: 1em;
     border-top: 1px;
     text-align: center;
+}
+
+header,footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+header,.grid,footer {
+    max-width: 840px;
 }
