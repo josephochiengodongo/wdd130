@@ -183,6 +183,7 @@ header,main,footer {
 
 .history h2 {
     margin: .5;
+    align-self: auto;
     
 
 }
