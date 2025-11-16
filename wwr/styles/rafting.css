@@ -168,7 +168,7 @@ header,main,footer {
 
 }
 
-.history {
+  .history {
     display: flex;
     justify-content: center;
 
@@ -185,7 +185,7 @@ align-self: left;
 
 .history h2 {
     margin: .5rem;
-    position:absolute;
-    left: 100px;
+    
+
 }
 
