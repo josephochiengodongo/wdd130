@@ -172,7 +172,7 @@ header,main,footer {
     display: flex;
     justify-items: center;
     position:relative;
-    top:600px;
+    bottom:600px;
     
 
 }
