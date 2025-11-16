@@ -182,8 +182,7 @@ header,main,footer {
 
 .history h2 {
     margin: .5;
-    position:;
-    bottom:10px;
-    left: 60px;
+    position:absolute;
+    right:20px;
 }
 
