@@ -176,11 +176,13 @@ header,main,footer {
 }
 
 .history p {
-width: 36%;
-align-self: left;
-
+    width: 30%;
+    text-align: center;
 
 }
+
+
+
 
 
 .history h2 {
