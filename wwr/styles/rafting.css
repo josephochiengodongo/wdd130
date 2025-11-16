@@ -183,6 +183,8 @@ width: 36%;
 
 .history h2 {
     margin: .5;
+    display: flex;
+    justify-self:center;
     
     
 
