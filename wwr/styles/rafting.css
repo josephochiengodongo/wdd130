@@ -177,7 +177,7 @@ header,main,footer {
 }
 
 .history p {
-width: 66%
+width: 36%;
 
 }
 
@@ -185,7 +185,7 @@ width: 66%
 .history h2 {
     margin: .5;
     display: flex;
-    justify-items:center;
+    align-self: center;
     
     
 
