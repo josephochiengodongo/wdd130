@@ -101,8 +101,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: .7;
-    background-color: var(--accent1-color);
-    color: yellow;
+    background-color: green;
+    color: #fff;
 
 }
 
