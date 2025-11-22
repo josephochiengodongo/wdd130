@@ -171,10 +171,11 @@ section {
 }
 
 header {
-background-color: blue;
-color: white;
-text-align: center;
+    background-color: blue;
+    color: white;
+    display: grid;
 }
+
 
 
 
