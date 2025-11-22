@@ -147,9 +147,14 @@ section image{
 }
 
 .history p {
-    width: 18%
+    width: 36%
 }
 
+section {
+    margin: 1rem;
+    padding: .1rem;
+    background-color: #fff;
+}
 
 
 
