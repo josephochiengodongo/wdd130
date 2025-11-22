@@ -140,5 +140,14 @@ h1 {
     
 }
 
+section {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius:.1rem;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    border-color: green;
+}
 
 
