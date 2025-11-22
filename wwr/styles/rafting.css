@@ -134,9 +134,10 @@ section,article {
     padding: 1rem;
     border-radius:.1rem;
     border: 2px solid var(--accent2-color);
-    background-color:#fff;
-    color: #000;
-}
+    background-color:orange;
+    color: #fff;
+    opacity: .7;
+    width: 90%;
 
 
 
