@@ -142,7 +142,8 @@ h1 {
 
 section {
    position: relative;
-   left: 350px; 
+   left: 350px;
+   text-align: justify; 
 }
 
 
