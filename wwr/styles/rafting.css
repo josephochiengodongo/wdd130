@@ -134,7 +134,8 @@ section,article {
     padding: 1rem;
     border-radius:.1rem;
     border: 2px solid var(--accent2-color);
-    background-color:yellow;
+    background-color:#fff;
+    color: #000;
 }
 
 
