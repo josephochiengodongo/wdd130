@@ -172,11 +172,11 @@ section {
 
 header {
     display: grid;
-    align-self: center;
+    align-items: center;
     background-color: blue;
     color: white;
-    gap:1rem;
-    box-sizing: border-box;
+    gap:.1rem;
+    
 
    
 }
