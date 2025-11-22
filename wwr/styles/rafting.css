@@ -140,7 +140,7 @@ h1 {
     
 }
 
-section {
+section figure{
    position: relative;
    left: 350px;
    text-align: justify; 
