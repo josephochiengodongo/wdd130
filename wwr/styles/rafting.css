@@ -171,11 +171,8 @@ section {
 }
 
 header {
-    display: grid;
-    align-items: center;
-    background-color: blue;
-    color: white;
-    gap:.1rem;
+background-color: blue;
+color: white;
     
 
    
