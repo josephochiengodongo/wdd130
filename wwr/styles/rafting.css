@@ -130,14 +130,14 @@ h1 {
 }
 
   article {
-    margin: .1rem;
+    margin: 1rem;
     padding: 1rem;
     border-radius:.1rem;
     border: 2px solid var(--accent2-color);
     background-color:orange;
     color: #fff;
     opacity: .7;
-    width: 98%;
+    
 }
 
 
