@@ -89,7 +89,7 @@ nav,p,section,article {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 900px;
     height: auto;
 
 }
@@ -129,7 +129,7 @@ h1 {
 
 }
 
-  article {
+  article section {
     margin: 1rem;
     padding: 1rem;
     border-radius:.1rem;
