@@ -110,9 +110,10 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    position: absolute;
+    bottom: 120px;
 
 }
 
-.employees h2 {
 
-}
+
