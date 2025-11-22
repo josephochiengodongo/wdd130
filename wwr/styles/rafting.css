@@ -153,6 +153,10 @@ section {
     align-items: center;
 }
 
+.adventures figure {
+    display: grid;
+    text-align: center;
+}
 
 
 
