@@ -160,6 +160,7 @@ section {
 
 .history {
     display: flex;
+    text-align: justify;
 }
 
 
