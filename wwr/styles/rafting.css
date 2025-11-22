@@ -106,8 +106,14 @@ h1 {
 
 }
 
+
 .hero article img {
     float: right;
     width: 125px;
 
+}
+
+.employees h2 {
+    grid-column: 1/-1;
+    justify-self: center;
 }
