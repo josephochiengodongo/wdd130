@@ -141,7 +141,7 @@ h1 {
 }
 
 section {
-   position: absolute;
+   position: relative;
    left: 350px;
 
 
