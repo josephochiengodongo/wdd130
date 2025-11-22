@@ -1,5 +1,4 @@
-
-:root {
+t {
     /* Dark color for primary text */
     --primary-color: #1157ab;
 
@@ -8,22 +7,42 @@
 
     /* Accent color 1 */
     --accent1-color: #c04647;
+
+    /* Accent color 2 */
+    --accent2-color: #3d816a;
+
+    /* Accent color 3 */
+    --accent3-color: #254768;
+
     /* White color */
     --white: #f3eded;
 
-    
+    /* Black color */
+    --black: #0e0c0c;
+
+    /* Button Background color */
+    --button-color: #714a0e;
+    --button-color-hover: #04083e;
+
+    --cta-button-color: #1bdd01;
+    --cta-button-color-hover: #04083e;
+
+    /* Top Navigation Colors */
+    /* Background color for navigation bar */
+    --nav-background-color: var(--accent2-color);
+    /* Color for navigation links */
+    --nav-link-color: #fff;
+    /* Hover color for links */
+    --nav-hover-link-color: var(--accent2-color);
+    /*Background color on hover for navigation links */
+    --nav-hover-background-color: #fff;
+
+    /* Font for heading */
+    --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Font for paragraph */
+    --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: blue;
-    color: white;
-}
 /* Global selectors moved outside :root */
 * {
     margin: 0;
@@ -39,7 +58,7 @@ body {
 
 h1,
 h2 {
-    font-family:var(--heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color)
 }
 
@@ -81,8 +100,8 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: lightgreen;
-    color: black;
+    background-color: var(--accent1-color);
+    color: #fff;
 
 }
 
@@ -109,8 +128,8 @@ header {
     grid-template-columns: 200px auto;
     align-items: center;
     gap: 1rem;
-    background-color: blue;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 header img {
@@ -137,8 +156,8 @@ nav ul {
 }
 
 nav a:hover {
-    background-color: blue;
-    color:white;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 .socialmedia a {
@@ -156,44 +175,216 @@ nav a:hover {
 
 footer {
     background-color: blue;
-    color: white;
     display: grid;
     grid-template-columns: 3fr 1fr;
     border-radius: .1rem;
+
 }
 
-header,main,footer {
-    width: 900px;
-    margin: 0 auto;
+footer p {
+    margin-left: 1rem;
+}
 
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    position: absolute;
+    border-top-width: 4rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: green;
+}
+
+section,
+article {
+    margin: .1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid var(--accent2-color);
+    border-radius: .1rem;
+}
+
+.contact-form {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 2rem 1rem;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+.history h2 {
+    margin: .5rem;
 }
 
 .history {
     display: flex;
 
 
-}
-
-.history h2 {
-    margin: .5rem;
-    align-items: center;
 
 }
+
 
 .history p {
     width: 36%;
+}
+
+.btn {
+    background-color: blue;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.btm:hover {
+    background-color: blue;
+}
+
+
+.adventures {
+    display: grid;
+    grid-auto-flow: column;
+    gap: .25rem .25rem;
+    text-align: center;
+}
+
+
+
+
+.adventures h2 {
+    display: flex;
+}
+
+
+
+
+.adventures figure {
+    display: grid;
+    text-align: left;
+}
+
+
+
+
+
+
+.employees figure {
+    width: 250px;
+    justify-self: center;
+
+
+
+}
+
+
+.employees {
+    grid-column: 1/3;
+    /* grid-column:1/-1; grid-column:1/span 2;*/
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.employees h2 {
+    grid-column: 1/-1;
     justify-self: center;
 }
-    
 
-
-h1,h2 {
-    font-family: var(--body-font);
-    color: var(--primary-color);
+.employees img {
+    border-radius: 50%;
+    border: 4px solid var(--accent2-color);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 
-header,main,footer {
-    width: 1000px;
-    margin: 0 auto;
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+
+
+.gmap {
+    grid-column: 1/-1;
+    grid-row: 2;
+    border: 0;
+}
+
+
+
+.purpose {
+    align-self: start;
+}
+
+
+
+
+.btm {
+    background-color: var(--primary-color);
+    color: green;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btm:hover {
+    background-color: var(--accent1-color);
+}
+
+.full-w {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+}
+
+.purpose p {
+    justify-self: start;
+}
+
+.subscribe {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+.element nav {
+    background-color: blue;
+    width: 100%;
+    flex-direction: row;
+    background-attachment: fixed;
+}
+
+.purpose fieldset {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1.25rem;
+    border: none;
+
 }
