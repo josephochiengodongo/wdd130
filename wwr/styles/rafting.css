@@ -165,6 +165,12 @@ section {
     text-align: center;
 }
 
+.adventures h2 {
+    position: absolute;
+    bottom: 5px;
+    
+}
+
 
 
 
