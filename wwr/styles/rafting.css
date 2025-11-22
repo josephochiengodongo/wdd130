@@ -182,6 +182,7 @@ header,main,footer {
 
 .history p {
     width: 36%;
+    justify-self: center;
 }
     
 
