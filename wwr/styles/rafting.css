@@ -141,33 +141,16 @@ h1 {
 }
 
 section {
-    margin: 1rem;
-    padding: 1rem;
-    border-radius:.1rem;
-    background-color: #fff;
-    text-align: center;
-    color: #000;
-    border-color: green;
-}
-
-.history p {
-    width: 36%;
-}
-
-section p {
-    margin: .5rem;
-}
-
-.history {
-    display: flex;
-    align-items: flex-end;
+   position: relative;
+   right: 350px; 
 }
 
 
-.employees figure {
-    width: 250px;
-    justify-self: center;
-}
+
+
+
+
+
 
 
 
