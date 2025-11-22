@@ -134,8 +134,8 @@ h1 {
     padding: 1rem;
     border-radius:.1rem;
     border: 2px solid var(--accent2-color);
-    background-color: orange;
-    color: #000;
+    background-color: #fff;
+    color: blue;
     opacity: .7;
     
 }
