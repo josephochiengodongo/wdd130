@@ -102,7 +102,7 @@ h1 {
     text-align: center;
     opacity: .7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: yellow;
 
 }
 
@@ -114,6 +114,5 @@ h1 {
 }
 
 .employees h2 {
-    grid-column: 1/-1;
-    justify-self: center;
+
 }
