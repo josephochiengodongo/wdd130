@@ -137,15 +137,10 @@ h1 {
     background-color: #fff;
     color: blue;
     opacity: .7;
-    
 }
 
-section {
-   position: relative;
-   left: 350px;
 
 
-}
 
 .history p {
     width: 36%
@@ -155,6 +150,7 @@ section {
     margin: 1rem;
     padding: .1rem;
     background-color: #fff;
+    align-items: center;
 }
 
 
