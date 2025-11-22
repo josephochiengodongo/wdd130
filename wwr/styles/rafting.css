@@ -140,9 +140,10 @@ h1 {
     
 }
 
-section image{
-   position: relative;
+section {
+   position: absolute;
    left: 350px;
+
 
 }
 
