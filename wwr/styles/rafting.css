@@ -145,9 +145,15 @@ section {
     padding: 1rem;
     border-radius:.1rem;
     background-color: #fff;
-    text-align: justify;
+    text-align: center;
     color: #000;
     border-color: green;
 }
+
+.history p {
+    width: 36%;
+}
+
+
 
 
