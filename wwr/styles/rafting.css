@@ -172,7 +172,17 @@ section {
 
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: blue;
+    color: #fff;
+    
+   
+}
 
+did
 
 
 
