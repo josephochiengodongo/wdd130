@@ -50,10 +50,8 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: var(--primary-color);
-    color:var(--accent1-color);
-}
+
+
 
 body {
     font-family:var(--heading-font);
