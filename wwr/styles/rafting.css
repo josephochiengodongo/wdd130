@@ -168,11 +168,19 @@ header,main,footer {
 
 }
 
-.history h2{
+.history {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
+.history h2 {
+    margin: .5rem;
+
+}
+
+.history p {
+    width: 36%;
+}
 
