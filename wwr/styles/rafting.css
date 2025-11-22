@@ -164,5 +164,11 @@ section p {
 }
 
 
+.employees figure {
+    width: 250px;
+    justify-self: center;
+}
+
+
 
 
