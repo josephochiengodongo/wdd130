@@ -129,7 +129,7 @@ h1 {
 
 }
 
-section,article {
+  article {
     margin: .1rem;
     padding: 1rem;
     border-radius:.1rem;
@@ -137,7 +137,8 @@ section,article {
     background-color:orange;
     color: #fff;
     opacity: .7;
-    width: 90%;
+    width: 98%;
+}
 
 
 
