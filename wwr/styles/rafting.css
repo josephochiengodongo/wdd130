@@ -158,6 +158,12 @@ section {
     text-align: left;
 }
 
+.adventures {
+    display: grid;
+    grid-auto-flow: column;
+    gap: .25rem .25rem;
+    text-align: center;
+}
 
 
 
