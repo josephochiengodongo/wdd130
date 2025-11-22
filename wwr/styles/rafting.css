@@ -166,9 +166,11 @@ section {
 }
 
 .adventures h2 {
-    position: absolute;
-    left: 250px;
-    bottom: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    
+    
 
 }
 
