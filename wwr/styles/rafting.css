@@ -172,7 +172,6 @@ section {
 
 header {
     display: grid;
-    grid-template-columns: 200px auto;
     align-self: center;
     background-color: blue;
     color: white;
