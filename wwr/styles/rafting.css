@@ -135,7 +135,7 @@ h1 {
     border-radius:.1rem;
     border: 2px solid var(--accent2-color);
     background-color: orange;
-    color: #fff;
+    color: #000;
     opacity: .7;
     
 }
