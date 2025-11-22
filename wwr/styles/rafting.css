@@ -187,3 +187,9 @@ h1,h2 {
     font-family: var(--body-font);
     color: var(--primary-color);
 }
+
+
+header,main,footer {
+    width: 1000px;
+    margin: 0 auto;
+}
