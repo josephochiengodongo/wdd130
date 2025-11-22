@@ -121,7 +121,7 @@ h1 {
     
 }
 
-article   {
+.working-employees h2  {
     margin: .1rem;
     padding: 1rem;
     border: 2px solid var(--accent3-color);
