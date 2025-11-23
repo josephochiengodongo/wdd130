@@ -174,8 +174,9 @@ section {
 }
 nav {
     display: flex;
-    justify-content: space-around;
-    width: 70%;
+    justify-content: left;
+    flex-direction: row;
+
 }
 
 nav a {
