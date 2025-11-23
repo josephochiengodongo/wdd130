@@ -52,7 +52,7 @@
 
 body {
     background-color: var(--primary-color);
-    color: #000;
+    color:white;
 }
  
 header {
@@ -119,6 +119,8 @@ h1 {
     text-align: center;
     opacity: .7;
     color: blue;
+    background-color:green;
+    font-size: xx-large;
 
 }
 
