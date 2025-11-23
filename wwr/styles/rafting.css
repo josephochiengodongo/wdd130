@@ -179,10 +179,9 @@ h1 {
 }
 
 .history img {
+    display: flex;
+    flex-direction: column;
     
-
-    
-
     
 }
 
