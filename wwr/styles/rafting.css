@@ -139,8 +139,9 @@ h1 {
 
 
 
-section .history {
+.history {
     font-weight: bolder;
+    align-self: center;
 }
 
   article {
