@@ -158,8 +158,9 @@ section h2 {
     margin: 1rem;
     padding: .1rem;
     background-color: #fff;
-    align-items: center;
+    align-self: center;
     font-weight: 700;
+    font-size: medium;
 }
 
 .adventures figure {
