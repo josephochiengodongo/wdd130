@@ -8,6 +8,7 @@
      --accent2-color:#e9c46a;
      --heading-font: "Times New Roman";
      --body-font: Arial Helvetica San-serif;
+
 }   
 
 /* Universal selectors moved outside :root */
@@ -192,8 +193,8 @@ nav a {
 }
 
 nav a :hover {
-    background-color:white;
-    color: var(--nav-hover-background-color);
+    background-color:var(--primary-color);
+    color: var(--accent2-color);
     font-size: 50%;
 }
 
