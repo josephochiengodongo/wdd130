@@ -104,6 +104,10 @@ nav,p,section,article {
 
 }
 
+.socialmedia img {
+    width: 4rem;
+    height: 4rem;
+}
 .hero img {
     display: block;
     width: 900px;
