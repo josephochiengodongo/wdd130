@@ -137,7 +137,7 @@ h1 {
     
 }
 
-.employees h2  {
+.worker-employees h2  {
     margin: .1rem;
     padding: 1rem;
     border: 2px solid var(--accent3-color);
