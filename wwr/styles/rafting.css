@@ -185,6 +185,8 @@ nav a {
     text-decoration: none;
     font-weight: bolder;
     font-size: xx-large;
+    position: absolute;
+    bottom: auto;
 }
 
 nav a :hover {
