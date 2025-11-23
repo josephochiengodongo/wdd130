@@ -61,10 +61,12 @@ header {
 }
 
 footer {
-    
-
-
-    
+    background-color: blue; 
+    color: white; 
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: .1rem; 
+    width: 900px; 
 }
 
 
