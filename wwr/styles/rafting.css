@@ -155,12 +155,10 @@ h1 {
 }
 
 section h2 {
-    margin: 1rem;
-    padding: .1rem;
-    background-color: #fff;
-    align-content: space-around;
-    font-weight: 700;
-    font-size: medium;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
 }
 
 .adventures figure {
