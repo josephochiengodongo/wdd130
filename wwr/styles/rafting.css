@@ -156,13 +156,13 @@ h1 {
 
 .adventures h2 {
     position: absolute;
-    left: 200px;
+    left: 185px;
     font-size: 2rem;
     width: 900px;
     color: blue;
     background-color: white;
     bottom: 1px;
-    top:1280px;
+    top:1320px;
     opacity: .7;
 }
 
