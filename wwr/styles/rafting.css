@@ -65,8 +65,8 @@ footer {
     color: white;
     margin:2px;
     display: grid;
-    grid-template-columns:3fr,1fr;
-    border-radius: .1rem;
+    grid-template-columns:150px,auto;
+    align-items: end;
 }
 
 
