@@ -179,9 +179,9 @@ h1 {
 }
 
 .history {
-    display:grid; 
-    grid-auto-flow: column;
-     align-items: center; 
+    display:flex; 
+    justify-content: center;
+     flex-direction: row;
 }
 
 
