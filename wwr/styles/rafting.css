@@ -168,16 +168,15 @@ h1 {
 
 .history section {
     position: absolute;
-    left:185px;
     font-size: 2rem;
     width: 900px;
     color: red;
-    top: 1005px;
+    
 }
 
 .history section{
     position: absolute;
-    left:700px
+
 
     
 }
