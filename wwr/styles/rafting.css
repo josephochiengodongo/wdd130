@@ -178,7 +178,7 @@ h1 {
     
 }
 
-.history figure {
+.history {
     display:grid; 
     grid-auto-flow: column;
      align-items: center; 
