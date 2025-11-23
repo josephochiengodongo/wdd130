@@ -184,7 +184,7 @@ nav a {
     color: red;
     text-decoration: none;
     font-weight: bolder;
-    font-size: large;
+    font-size: medium;
 }
 
 nav a :hover {
