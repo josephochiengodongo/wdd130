@@ -173,6 +173,14 @@ h1 {
     width: 900px;
 }
 
+.history img {
+    position: absolute;
+    left:350px
+
+    
+}
+
+
 .adventures figure {
     display: grid;
     text-align: left;
