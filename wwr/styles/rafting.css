@@ -176,6 +176,7 @@ nav {
     display: flex;
     justify-content: right;
     flex-direction: row;
+    align-items: center;
 
 }
 
