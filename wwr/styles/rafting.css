@@ -10,7 +10,7 @@
      --body-font: Arial Helvetica San-serif;
 }   
 
-/* Global selectors moved outside :root */
+/* Universal selectors moved outside :root */
 * {
     margin: 0;
     padding: 0;
