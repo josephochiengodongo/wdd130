@@ -182,9 +182,10 @@ h1 {
     display:flex; 
     justify-content: center;
     flex-direction: row;
-    border: .1rem;
+    border: 1rem;
     border-color: green;
     margin: 1rem;
+    box-sizing: border-box;
 
 }
 
