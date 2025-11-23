@@ -65,14 +65,15 @@ footer {
     color: white;
     margin:2px;
     display: grid;
-    grid-template-columns:3fr,1fr;
+    grid-template-columns:200px,auto;
     align-items: end;
     width: 900px;
+    font-size: 2rem;
+    
 }
 
 
 body {
-    font-family:violet;
     color: black;
 
 }
@@ -157,7 +158,6 @@ h1 {
 .adventures h2 {
     position: absolute;
     left: 200px;
-    top:10px;
     font-size: 2rem;
     width: 900px;
 }
