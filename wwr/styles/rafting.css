@@ -158,7 +158,7 @@ section h2 {
     margin: 1rem;
     padding: .1rem;
     background-color: #fff;
-    align-self: center;
+    align-content: space-around;
     font-weight: 700;
     font-size: medium;
 }
