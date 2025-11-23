@@ -174,8 +174,9 @@ h1 {
 .adventures {
     display: grid;
     grid-auto-flow: column;
-    gap: .25rem .25rem;
+    gap: .3rem .3rem;
     text-align: center;
+    border-radius: .1rem;
 }
 
 .adventures h2 {
