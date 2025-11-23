@@ -172,7 +172,8 @@ h1 {
     font-size: 2rem;
     background-color: green;
     color: white;
-    left: 400px;
+    left: 600px;
+    width: 900px;
 }
 
 .history section {
