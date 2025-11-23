@@ -175,13 +175,15 @@ h1 {
     left: 185px;
     width: 900px;
     text-align: center;
+    
 }
 
-.history section {
+.history img {
     position: absolute;
     font-size: 2rem;
     width: 900px;
-    color: red;
+    left:185px
+
     
 }
 
