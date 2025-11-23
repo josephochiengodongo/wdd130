@@ -166,6 +166,13 @@ h1 {
     opacity: .7;
 }
 
+section .history {
+    position: absolute;
+    left:185px;
+    font-size: 2rem;
+    width: 900px;
+}
+
 .adventures figure {
     display: grid;
     text-align: left;
