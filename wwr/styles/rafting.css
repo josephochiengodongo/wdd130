@@ -195,7 +195,7 @@ nav {
 }
 
 nav a {
-    color: red;
+    color: white;
     text-decoration: none;
     font-weight: bolder;
     font-size: xx-large;
@@ -203,7 +203,7 @@ nav a {
 }
 
 nav a :hover {
-    background-color: red;
+    background-color: white;
     color: white;
 }
 
