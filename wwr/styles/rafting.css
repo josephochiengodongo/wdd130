@@ -174,7 +174,7 @@ h1 {
     color: white;
     left: 200px;
     width: 900px;
-    align-items: center;
+    text-align: center;
 }
 
 .history section {
