@@ -49,13 +49,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
+header {
+    background-color: blue;
+    color: white;
+}
 
 
 
 body {
-    font-family:var(--heading-font);
-    color: var(--accent1-color);
+    font-family:violet;
+    color: black;
 
 }
 
