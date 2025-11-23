@@ -183,6 +183,10 @@ nav a {
     font-weight: bold;
 }
 
+nav a :hover {
+    background-color: yellow;
+    color: white;
+}
 
 
 
