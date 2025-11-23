@@ -166,18 +166,18 @@ h1 {
     opacity: .7;
 }
 
+.history h2 {
+    position: absolute;
+    font-size: 2rem;
+    background-color: white;
+    color: blue;
+}
+
 .history section {
     position: absolute;
     font-size: 2rem;
     width: 900px;
     color: red;
-    
-}
-
-.history section{
-    position: absolute;
-
-
     
 }
 
