@@ -176,7 +176,7 @@ h1 {
     grid-auto-flow: column;
     gap: .3rem .3rem;
     text-align: center;
-    border-radius: .1rem;
+    border-radius: 1rem;
 }
 
 .adventures h2 {
