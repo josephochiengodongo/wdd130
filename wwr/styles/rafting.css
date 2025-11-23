@@ -184,7 +184,7 @@ h1 {
     flex-direction: row;
     border: 1rem;
     border-color: green;
-    margin: 1rem;
+    margin: .5rem;
     box-sizing: border-box;
 
 }
