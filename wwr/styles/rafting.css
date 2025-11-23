@@ -178,11 +178,10 @@ h1 {
     
 }
 
-.history img {
-    display: flex;
-    flex-direction: column;
-    
-    
+.history figure {
+    display:flex; 
+    justify-content: center;
+    flex-direction: row;   
 }
 
 
