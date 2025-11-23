@@ -65,10 +65,9 @@ footer {
     color: white;
     margin:2px;
     display: grid;
-    grid-template-columns:200px,auto;
-    align-items: end;
     width: 900px;
-    font-size: 2rem;
+    position: absolute;
+    top:700px;
     
 }
 
