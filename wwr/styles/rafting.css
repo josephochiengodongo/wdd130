@@ -159,8 +159,8 @@ h1 {
     left: 185px;
     font-size: 2rem;
     width: 900px;
-    color: blue;
-    background-color: white;
+    color: white;
+    background-color: green;
     bottom: 1px;
     top:1300px;
     opacity: .7;
@@ -169,8 +169,8 @@ h1 {
 .history h2 {
     position: absolute;
     font-size: 2rem;
-    background-color: white;
-    color: blue;
+    background-color: green;
+    color: white;
     left: 185px;
 }
 
