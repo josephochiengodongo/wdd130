@@ -186,7 +186,10 @@ h1 {
 .history {
     display:flex; 
     justify-content: center;
-     flex-direction: row;
+    flex-direction: row;
+    border: .1rem;
+    border-color: #000;
+
 }
 
 
