@@ -173,7 +173,7 @@ h1 {
     width: 900px;
 }
 
-.history figure {
+.history section{
     position: absolute;
     left:350px
 
