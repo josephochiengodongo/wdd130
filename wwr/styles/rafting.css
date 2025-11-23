@@ -60,6 +60,14 @@ header {
     gap: 1rem;
 }
 
+footer {
+    background-color: blue;
+    color: white;
+    margin:2px;
+    display: grid;
+    grid-template-columns:3fr,1fr;
+    border-radius: .1rem;
+}
 
 
 body {
