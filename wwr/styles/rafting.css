@@ -19,8 +19,8 @@
 }
 
 body {
-    background-color: var(--primary-color);
-    color:white;
+    background-color: white;
+    color:black;
 }
  
 header {
