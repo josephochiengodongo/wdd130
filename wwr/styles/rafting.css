@@ -166,7 +166,7 @@ h1 {
     opacity: .7;
 }
 
-section .history {
+ .history h2 {
     position: absolute;
     left:185px;
     font-size: 2rem;
