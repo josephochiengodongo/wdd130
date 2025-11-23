@@ -216,6 +216,12 @@ nav a :hover {
     font-size: 50%;
 }
 
+section {
+    background-color: green;
+    border-radius: .1rem;
+    color: #fff;
+}
+
 
 
 
