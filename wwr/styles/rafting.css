@@ -157,7 +157,7 @@ h1 {
 .adventures h2 {
     position: absolute;
     left: 200px;
-    top:5px
+    top:10px;
     font-size: 2rem;
     width: 900px;
 }
