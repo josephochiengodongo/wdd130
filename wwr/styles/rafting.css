@@ -164,10 +164,11 @@ h1 {
     left: 185px;
     font-size: 2rem;
     width: 900px;
-    color: blue;
+    color: white;
     background-color: orange;
     bottom: 1px;
     top:1280px;
+    opacity: .7;
 }
 
 .adventures figure {
