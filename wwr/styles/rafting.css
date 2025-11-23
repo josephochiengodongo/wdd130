@@ -154,9 +154,9 @@ h1 {
     width: 36%
 }
 
-section h2 {
+.adventures h2 {
     position: absolute;
-    left: 20px;
+    left: 10px;
     font-size: 2rem;
 }
 
