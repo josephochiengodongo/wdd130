@@ -1,6 +1,6 @@
 .root {
-    /* Dark color for primary text */
-    --primary-color: #1157ab;
+    /* forest green */
+    --primary-color: #055a05;
 
     /* Secondary color,slightly lighter */
     --secondary-color: #622e30;
@@ -49,9 +49,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--primary-color);
+    color: #000;
+}
  
 header {
-    background-color: blue;
+    background-color:green;
     color: white;
     margin: 2px;
     display: grid;
@@ -61,7 +66,7 @@ header {
 }
 
 footer {
-    background-color: blue; 
+    background-color:var(--primary-color);
     color: white; 
     display: grid;
     grid-template-columns:3fr 1fr;
@@ -219,8 +224,8 @@ nav a {
 }
 
 nav a :hover {
-    background-color: white;
-    color: white;
+    background-color:white;
+    color: var(--nav-hover-background-color);
     font-size: 50%;
 }
 
