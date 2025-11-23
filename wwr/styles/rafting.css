@@ -166,12 +166,13 @@ h1 {
     opacity: .7;
 }
 
-.history img h2 {
+.history figure {
     position: absolute;
     left:185px;
     font-size: 2rem;
     width: 900px;
     color: red;
+    top: 5px;
 }
 
 .history section{
