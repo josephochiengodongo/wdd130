@@ -166,7 +166,7 @@ h1 {
     opacity: .7;
 }
 
-.history figure {
+.history section {
     position: absolute;
     left:185px;
     font-size: 2rem;
