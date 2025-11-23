@@ -51,8 +51,8 @@
 }
  
 header {
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
@@ -171,15 +171,17 @@ section {
     color:blue ;
     background-color: #3d816a;
     right:10px;
-
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
-header {
-    background-color: blue;
-    color: white;
-
+nav a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
 }
-
 
 
 
