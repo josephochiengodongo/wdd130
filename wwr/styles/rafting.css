@@ -169,8 +169,7 @@ h1 {
 .history h2 {
     position: absolute;
     font-size: 2rem;
-    background-color: blue;
-    color: white;
+    color: blue;
     left: 185px;
     width: 900px;
     text-align: center;
