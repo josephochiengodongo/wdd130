@@ -182,11 +182,8 @@ h1 {
     display:flex; 
     justify-content: center;
     flex-direction: row;
-    border: 1rem;
-    border-color: green;
-    margin: .5rem;
-    box-sizing: border-box;
     background-color: orange;
+    color: black;
 
 }
 
