@@ -66,8 +66,9 @@ footer {
     margin:2px;
     display: grid;
     width: 900px;
-    position: absolute;
-    top:1600px;
+    position: fixed;
+    bottom:30px
+
     
 }
 
