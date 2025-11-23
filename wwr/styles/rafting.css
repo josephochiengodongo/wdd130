@@ -188,7 +188,7 @@ h1 {
     justify-content: center;
     flex-direction: row;
     border: .1rem;
-    border-color: #000;
+    border-color: green;
     margin: 1rem;
 
 }
