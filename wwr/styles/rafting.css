@@ -109,7 +109,7 @@ h1 {
     padding: 1rem;
     border-radius:.1rem;
     border: 2px solid var(--accent2-color);
-    background-color: #fff;
+    background-color: var(--secondary-color);
     color: blue;
     opacity: .7;
 }
@@ -190,8 +190,8 @@ nav a {
 }
 
 nav a :hover {
-    background-color:var(--primary-color);
-    color: var(--accent2-color);
+    background-color:var(--secondary-color);
+    color: var(--accent1-color);
     font-size: 50%;
     margin: 0;
     padding: 0;
