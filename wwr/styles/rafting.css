@@ -43,40 +43,10 @@
     --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Global selectors moved outside :root */
+/* universal sellector */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Universal selectors moved outside :root */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
