@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
 
 
 body {
