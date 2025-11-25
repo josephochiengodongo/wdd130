@@ -1,54 +1,19 @@
 .root {
-    /* Dark color for primary text */
-    --primary-color: #1157ab;
-
-    /* Secondary color,slightly lighter */
-    --secondary-color: #622e30;
-
-    /* Accent color 1 */
-    --accent1-color: #c04647;
-
-    /* Accent color 2 */
-    --accent2-color: #3d816a;
-
-    /* Accent color 3 */
-    --accent3-color: #254768;
-
-    /* White color */
-    --white: #f3eded;
-
-    /* Black color */
-    --black: #0e0c0c;
-
-    /* Button Background color */
-    --button-color: #714a0e;
-    --button-color-hover: #04083e;
-
-    --cta-button-color: #1bdd01;
-    --cta-button-color-hover: #04083e;
-
-    /* Top Navigation Colors */
-    /* Background color for navigation bar */
-    --nav-background-color: var(--accent2-color);
-    /* Color for navigation links */
-    --nav-link-color: #fff;
-    /* Hover color for links */
-    --nav-hover-link-color: var(--accent2-color);
-    /*Background color on hover for navigation links */
-    --nav-hover-background-color: #fff;
-
-    /* Font for heading */
-    --heading-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* Font for paragraph */
-    --paragrph-font: Verdana, Geneva, Tahoma, sans-serif;
+    --primary-color:#055a05;/* forest green*/
+    --secondary-color:#ffffff;
+    --accent1-color:#1b9715;
+    --accent2-color:#000000;
+    --heading-font:"Roboto";
+    --body-font:Arial,Helvetica,Sans-serif;
 }
 
-/* universal sellector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 body {
     background-color: white;
@@ -228,6 +193,11 @@ nav a :hover {
     background-color:var(--primary-color);
     color: var(--accent2-color);
     font-size: 50%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
 }
 
 
