@@ -1,7 +1,7 @@
 .root {
     --primary-color:#055a05;/* forest green*/
     --secondary-color:#ffffff;
-    --accent1-color:#1b9715;
+    --accent1-color:#1b9715;/*strong green */
     --accent2-color:#000000;
     --heading-font:"Roboto";
     --body-font:Arial,Helvetica,Sans-serif;
@@ -191,7 +191,7 @@ nav a {
 
 nav a :hover {
     background-color:var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     font-size: 50%;
     margin: 0;
     padding: 0;
