@@ -1,13 +1,13 @@
 .root {
     --primary-color:#055a05;/* forest green*/
-    --secondary-color:#ffffff;
+    --secondary-color:#ffffff;/* white */
     --accent1-color:#1b9715;/*strong green */
-    --accent2-color:#000000;
+    --accent2-color:#000000;/*black*/
     --heading-font:"Roboto";
     --body-font:Arial,Helvetica,Sans-serif;
 }
 
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
