@@ -19,11 +19,6 @@ body {
     color: var(--accent2-color);
 }
 
-
-body {
-    background-color: white;
-    color:black;
-}
  
 header {
     background-color:blue;
