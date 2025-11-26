@@ -211,6 +211,8 @@ nav a :hover {
     grid-template-columns: 1fr 4fr;
     gap: 2rem  1rem;
     align-items: center;
+    position: absolute;
+    left: 100px;
 }
 
 .full-w {
