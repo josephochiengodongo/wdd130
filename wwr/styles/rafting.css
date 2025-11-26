@@ -76,7 +76,7 @@ nav,p,section,article {
 
 }
 
-h1 {
+h1.about {
     position: absolute;
     top: 20px;
     width: 100%;
