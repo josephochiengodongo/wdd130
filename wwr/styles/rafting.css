@@ -76,7 +76,7 @@ nav,p,section,article {
 
 }
 
-div.h1 {
+ h1.hero {
     position: absolute;
     top: 20px;
     width: 100%;
