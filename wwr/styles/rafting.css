@@ -204,7 +204,7 @@ nav a :hover {
 /*css for contact us starts here*/
 
 
-. {
+.contact-form {
     grid-column: 2;
     grid-row: 2;
     display: grid;
