@@ -212,7 +212,7 @@ nav a :hover {
     gap: 2rem  1rem;
     align-items: center;
     width: 300px;
-    height: auto;
+    height: 50%;
     border: 1rem;
     padding: 1rem;
     margin: .1rem;
