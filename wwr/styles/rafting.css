@@ -212,6 +212,7 @@ nav a :hover {
     gap: 2rem  1rem;
     align-items: center;
     width: 50%;
+    height: 75%;
     border: 1rem;
     padding: 1rem;
     margin: .1rem;
@@ -242,6 +243,10 @@ nav a :hover {
     display: flex;
     align-items: center;
     gap: .5rem;
+}
+
+.btm.hover {
+    background-color: var(--secondary-color);
 }
 
 
