@@ -211,8 +211,8 @@ nav a :hover {
     grid-template-columns: 1fr 4fr;
     gap: 2rem  1rem;
     align-items: center;
-    width: 50%;
-    height: 300px;
+    width: 300px;
+    height: auto;
     border: 1rem;
     padding: 1rem;
     margin: .1rem;
