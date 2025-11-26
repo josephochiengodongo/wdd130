@@ -212,8 +212,8 @@ nav a :hover {
     gap: 2rem  1rem;
     align-items: center;
     position: absolute;
-    bottom: 20px;
-    left: 300px;
+    bottom: 10px;
+    left: 400px;
 }
 
 .full-w {
