@@ -76,7 +76,7 @@ nav,p,section,article {
 
 }
 
- h1.hero {
+ .hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -199,6 +199,8 @@ nav a :hover {
 
 
 }
+/*css for contact us starts here*/
+
 
 
 
