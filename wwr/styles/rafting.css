@@ -212,11 +212,21 @@ nav a :hover {
     gap: 2rem  1rem;
     align-items: center;
     width: 300px;
-    height: 44px;
+    height:44px;
     border: 1rem;
     padding: 1rem;
     margin: .1rem;
+    position: absolute;
+    bottom: 30px;
 
+}
+
+
+.purpose fieldset {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1.25rem;
+    border: none;
 }
 
 .purpose p {
