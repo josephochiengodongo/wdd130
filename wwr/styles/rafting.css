@@ -218,6 +218,10 @@ nav a :hover {
 
 }
 
+.purpose p {
+    align-self: start;
+}
+
 .btm {
     background-color: var(--primary-color);
     color: blue;
