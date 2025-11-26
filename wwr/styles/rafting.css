@@ -204,14 +204,14 @@ nav a :hover {
 /*css for contact us starts here*/
 
 
-.contact-form {
+. {
     grid-column: 2;
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 2rem  1rem;
     align-items: center;
-    position: absolute;
+
     bottom: 5px;
     left: 600px;
 }
