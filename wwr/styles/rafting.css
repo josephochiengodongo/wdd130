@@ -205,19 +205,16 @@ nav a :hover {
 
 
 .contact-form {
-    grid-column: 2;
-    grid-row: 2;
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 2rem  1rem;
-    align-items: center;
-    width: 300px;
-    height:44px;
-    border: 1rem;
+    grid-template-columns: repeat (2, 1fr);
+    gap: 1rem;
     padding: 1rem;
-    margin: .1rem;
-    position: absolute;
-    bottom: 30px;
+    border: 2px solid var(--accent2-color);
+    border-radius: .1rem;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+
+
 
 }
 
