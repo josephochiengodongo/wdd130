@@ -253,7 +253,7 @@ nav a :hover {
 
 .btm {
     background-color: var(--primary-color);
-    color: blue;
+    color: white;
     padding: 1rem 2rem;
     border: none;
     cursor: pointer;
