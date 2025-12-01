@@ -17,6 +17,42 @@
     box-sizing: border-box;
 }
 
+/* Form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--body-font);
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.btm-submit {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btm-submit:hover {
+    opacity: 0.95;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent2-color);
