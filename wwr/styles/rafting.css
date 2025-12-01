@@ -54,7 +54,6 @@ label {
 }
 
 body {
-    font-family: var(--body-font);
     color: var(--accent2-color);
     background-color: var(--secondary-color);
 }
