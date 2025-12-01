@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | White Water Rafting Company</title>
-    <meta name="description" content="White Water Rafting Company, come find out why we are knowned in both family and individual adventure.">
+    <meta name="description"
+        content="White Water Rafting Company, come find out why we are knowned in both family and individual adventure.">
     <meta name="author" content="Joseph Ochieng Odongo">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -21,21 +22,28 @@
         </nav>
     </header>
     <main>
-        <p class="For information of our Trips">
-        <p>For more information<a href="trip.html">TRIPS</a></p>
-        <figure>
-            <img src="images/rafting1519.jpg" alt="Multiple groups of people in colorful inflatable rafts navigate a brown river surrounded by dense green jungle vegetation. Participants wear life jackets and helmets, paddling through the water with lush forest and tall grass visible along the riverbanks. The scene conveys adventure and excitement of white water rafting in a tropical environment.">
-            <h1>White Water Rafting Company</h1>
-        </figure>
-        <div>
-            <form action="#">
-                <label for="name">Name</label>
-                <input type="text" id="name" Name="name" required>
-                <label for="email">Email</label> 
-                <input type="email" id="email" Email="email" required>
-                <button type="submit">Get Newsletter</button>
-            </form>
-        </div>
+        <div class="hero"></div>
+            <h1>White Water Rafting company</h1>
+            <figure>
+                <img src="images/rafting1519.jpg"
+                alt="Multiple groups of people in colorful inflatable rafts navigate a brown river surrounded by dense green jungle vegetation. Participants wear life jackets and helmets, paddling through the water with lush forest and tall grass visible along the riverbanks. The scene conveys adventure and excitement of white water rafting in a tropical environment.">
+            </figure>
+        <section class="cta-trips">
+            <h2>For More Adventures?</h2>
+            <p>Visit our Trips page, to get more information on variety of adventures,and charges,to explore thrilling rafting experience for all.</p>
+            <a href="trips.html" class="cta-button">Visit Our Trips Page</a>
+        </section>
+        <h2>A Newsletter</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Subscribe to our Newsletter</legend>
+                <label>First Name*<input type="text" name="firstname" required></label>
+                <label>Last Name*<input type="text" name="lastname" required></label>
+                <label>Email Address*<input type="email" name="email" required></label>
+                <label>Phone<input type="phone" placeholder="1235551232" required></label>
+            </fieldset>
+            <button type="submit">Get Newsletter</button>
+        </form>
     </main>
     <footer>
         <p>&copy;-2025 White Water Rafting Company | Joseph Ochieng Odongo</p>
@@ -46,10 +54,11 @@
             <a href="https://linkedin.com">
                 <img src="images/linkedin.png" alt="linkedin Icon">
             </a>
-                <a href="https://instagram.com">
+            <a href="https://instagram.com">
                 <img src="images/instagram.png" alt="Instagram Icon">
             </a>
         </nav>
     </footer>
 </body>
+
 </html>
