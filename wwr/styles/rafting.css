@@ -175,6 +175,72 @@ article {
     left: 185px;
     font-size: 2rem;
     width: 900px;
+
+    /* Styles for the 3-column table form on trips page */
+    .trip-table-form table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 0 1rem 0;
+    }
+
+    .trip-table-form th,
+    .trip-table-form td {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 0.5rem;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    .trip-table-form input[type="text"],
+    .trip-table-form input[type="email"],
+    .trip-table-form input[type="tel"],
+    .trip-table-form input[type="date"],
+    .trip-table-form input[type="number"],
+    .trip-table-form select {
+        width: 100%;
+        padding: 0.45rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .trip-table-form .form-actions {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    @media (max-width: 720px) {
+
+        .trip-table-form table,
+        .trip-table-form thead,
+        .trip-table-form tbody,
+        .trip-table-form th,
+        .trip-table-form td,
+        .trip-table-form tr {
+            display: block;
+            width: 100%;
+        }
+
+        .trip-table-form tr+tr {
+            margin-top: 0.75rem;
+        }
+
+        .trip-table-form th {
+            display: none;
+        }
+
+        .trip-table-form td {
+            border: none;
+            padding: 0.25rem 0;
+        }
+
+        .trip-table-form td::before {
+            /* optional: show label before input on small screens */
+            content: attr(data-label) ": ";
+            font-weight: 700;
+        }
+    }
+
     color: green;
     background-color: white;
     bottom: 1px;
@@ -411,8 +477,8 @@ nav a :hover {
 .cta-button:active {
     transform: scale(0.98);
 }
-.btm.hover
-.button {
+
+.btm.hover .button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: none;
@@ -425,4 +491,11 @@ nav a :hover {
 .newsleter:hover {
     background-color: red;
     color: var(--secondary-color);
-} 
+}
+
+.span.h1 {
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 40%;
+}
