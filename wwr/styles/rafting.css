@@ -209,7 +209,7 @@ article {
         justify-content: flex-end;
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 900px) {
 
         .trip-table-form table,
         .trip-table-form thead,
@@ -218,7 +218,7 @@ article {
         .trip-table-form td,
         .trip-table-form tr {
             display: block;
-            width: 100%;
+            width: 400px;
         }
 
         .trip-table-form tr+tr {
