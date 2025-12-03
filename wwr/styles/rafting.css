@@ -404,7 +404,6 @@ nav a :hover {
     border: 2px solid var(--secondary-color);
     position: absolute;
     top:600px;
-    size: large;
     width: 250px;
 }
 
