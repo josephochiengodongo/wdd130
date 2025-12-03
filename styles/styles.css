@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@ footer {
     margin: 0 auto;
     width: 840px;
     box-sizing: border-box;
-    align-self:center;
+    align-self: center;
 }
 
 nav {
@@ -109,12 +109,14 @@ footer {
     text-align: center;
 }
 
-header,footer {
+header,
+footer {
     max-width: 840px;
     margin: 0 auto;
-    
 }
 
-header,.grid,footer {
+header,
+.grid,
+footer {
     max-width: 840px;
 }
