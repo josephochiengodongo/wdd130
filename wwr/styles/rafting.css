@@ -78,8 +78,8 @@ footer {
     margin: 2px;
     align-self: center;
     position: absolute;
-    top: 1200px;
-    left: 15%;
+    top: 1250px;
+    left:20%;
 
 
 
@@ -172,13 +172,13 @@ article {
 
 .adventures h2 {
     position: absolute;
-    left: 185px;
+    left: 280px;
     font-size: 2rem;
     width: 960px;
     color: green;
     background-color: white;
     bottom: 1px;
-    top: 1010px;
+    top: 1070px;
     opacity: .7;
 }
 
@@ -186,10 +186,10 @@ article {
     position: absolute;
     font-size: 2rem;
     color: white;
-    left: 185px;
     width: 960px;
     text-align: center;
-    top: 730px;
+    top: 750px;
+    left: 19.5%;
     margin: .1rem;
     border: .1rem;
     background-color: green;
@@ -217,9 +217,9 @@ article {
 .adventures {
     display: grid;
     grid-auto-flow: column;
-    gap: .3rem .3rem;
+    gap: .5rem .5rem;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 4rem;
 }
 
 nav {
@@ -256,7 +256,7 @@ nav a :hover {
 
 .contact-form {
     display: block;
-    padding: 1rem;
+    padding: 5rem;
     border: 2px solid var(--accent2-color);
     border-radius: .1rem;
     background-color: white;
@@ -264,11 +264,12 @@ nav a :hover {
     width: 400px;
     max-width: 400px;
     margin: 0;
-    box-sizing: border-box;
     position: absolute;
     top: 300px;
     left: 50%;
+    
 }
+
 
 
 
