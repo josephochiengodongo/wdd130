@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site Plan — WDD130 Project</title>
+    <meta name="description" content="Site plan and page map for the White Water Rafting site">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            color: #222
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem
+        }
+
+        nav a {
+            margin-right: 1rem
+        }
+
+        section {
+            margin-top: 1.25rem
+        }
+
+        dt {
+            font-weight: 700
+        }
+
+        dd {
+            margin: 0 0 0.75rem 1rem
+        }
+
+        .notes {
+            color: #555;
+            font-size: 0.95rem
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Site Plan — White Water Rafting (WDD130)</h1>
+        <p class="notes">This page documents the site's pages and purpose. Use it as a quick reference while editing.
+        </p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+            <a href="wwr/about.html">WWR About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Top-level pages</h2>
+            <dl>
+                <dt>index.html</dt>
+                <dd>Homepage: CTA to `trips.html`, newsletter signup, hero image.</dd>
+
+                <dt>about.html</dt>
+                <dd>Company overview, history, hero and team. Uses `styles/style.css` and `styles/about.css` for
+                    page-specific styling.</dd>
+
+                <dt>trips.html</dt>
+                <dd>List of trips and trip details. (Restore or edit as needed.)</dd>
+
+                <dt>contact.html</dt>
+                <dd>Contact form, map embed, staff listings.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>WWR folder (site content)</h2>
+            <dl>
+                <dt>wwr/about.html</dt>
+                <dd>Alternative About page (older copy). Keep for reference.</dd>
+
+                <dt>wwr/styles/</dt>
+                <dd>Contains `style.css`, `about.css`, and `rafting.css` (page-specific and global CSS). Use `style.css`
+                    for global variables and `about.css` for About page specifics.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Development notes</h2>
+            <ul>
+                <li>Canonical site width: <strong>840px</strong> (main layout controlled in `styles/styles.css`).</li>
+                <li>Use CSS variables in `:root` for colors and typography when possible.</li>
+                <li>Keep page-specific CSS small and load it after the global stylesheet.</li>
+                <li>Prefer semantic HTML (use <code>&lt;table&gt;</code> only for tabular data, forms should use
+                    fieldsets and labels).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Quick tasks</h2>
+            <ol>
+                <li>Confirm `styles/styles.css` width (set to 840px for the site template).</li>
+                <li>Review `wwr/styles/rafting.css` for any conflicting width values and harmonize with global styles.
+                </li>
+                <li>Clean up malformed HTML (e.g., stray &lt;tv&gt; tags in `trips.html`).</li>
+                <li>Commit the restored CSS files once verified.</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="notes">Generated: December 2, 2025 — Use this page as a living document while developing the project.
+        </p>
+    </footer>
+</body>
+
+</html>
