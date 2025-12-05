@@ -372,14 +372,12 @@ nav a :hover {
 
 /* Call-to-action section for trips */
 .cta-trips {
-    background-color: #ffffff;
-    padding: 2rem 1.5rem;
+    background-color: yellow;
+    padding: 0;
     border-radius: 8px;
     text-align: center;
-    margin: 2rem 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    top:700;
-        
+    margin: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);        
 
 }
 
@@ -418,16 +416,16 @@ nav a :hover {
 }
 
 .cta-button:hover {
-    background: transparent;
+    background: orange;
     color: var(--primary-color);
     transform: scale(1.5);
+    
 }
 
 .cta-button:active {
     transform: scale(0.98);
 }
-.btm.hover
-.button {
+.btm.hover.button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: none;
@@ -435,6 +433,7 @@ nav a :hover {
     border-radius: 4px;
     cursor: pointer;
     font-weight: 900;
+    width: 400px;
 }
 
 .btm-submit {
@@ -451,19 +450,17 @@ nav a :hover {
 .trip-table {
     width: 650px;
     font-size: x-large;
-    box-shadow: 0 6px 18px (0 0 0 0.6);
-    overflow: hidden;
-    border-collapse: collapse;
-    border-radius: .8px;
-    background-color:white;
-    color: black;
-    align-items: center;
+    background-color:var(--secondary-color);
+    color: var(--accent2-color);
+
+
 }
 
-.h2.trip-table {
-    position: absolute;
-    left: 30%;
-}
+
 .h1.p {
     background-color: red;
+}
+
+.cta-button {
+
 }
