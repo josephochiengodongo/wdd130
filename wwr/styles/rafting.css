@@ -438,6 +438,32 @@ nav a :hover {
 }
 
 .btm-submit {
-    background-color: red;
+    background-color: blue;
     color: var(--secondary-color);
+    max-width: 400px;
+    border-radius: 6px;
+    padding: .8rem;
+
 } 
+.form-checkbox {
+    margin-right: 14px;
+}
+.trip-table {
+    width: 650px;
+    font-size: x-large;
+    box-shadow: 0 6px 18px (0 0 0 0.6);
+    overflow: hidden;
+    border-collapse: collapse;
+    border-radius: .8px;
+    background-color:white;
+    color: black;
+    align-items: center;
+}
+
+.h2.trip-table {
+    position: absolute;
+    left: 30%;
+}
+.h1.p {
+    background-color: red;
+}
