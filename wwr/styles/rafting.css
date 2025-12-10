@@ -247,21 +247,7 @@ nav a :hover {
 /*css for contact us starts here*/
 
 
-.contact-formf f{
-    display: block;
-    padding: 1rem;
-    border: 2px solid var(--accent2-color);
-    border-radius: .1rem;
-    background-color: white;
-    color: black;
-    width: 400px;
-    max-width: 400px;
-    margin: 0;
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    
-}
+
 
 .contact-wf1 input[type="name"]  {
     display: block;
@@ -476,8 +462,8 @@ table {
 }
 
 .btm {
-    background-color: var(--primary-color);
-    color: green;
+    background-color: orange;
+    color: white;
     padding: 1rem 2rem;
     border: none;
     cursor: pointer;
@@ -500,12 +486,12 @@ table {
 .contact-form {
     position: absolute;
     left: 46%;
-    top:30%
-}
-section h2 {
-    position: absolute;
-    top:90%;
-    left: 50%;
+    top:30%;
+    max-width: 400px;
+    background-color: #ffffff;
+    color: black;
+
+
 }
 
 
