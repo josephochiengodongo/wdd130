@@ -251,7 +251,7 @@ nav a :hover {
 
 .contact-wf1 input[type="name"]  {
     display: block;
-     width:50%;
+     width:50%
 }  
 
 .wf1.newsletter {
@@ -405,11 +405,11 @@ td:nth-child(3n+3){
 
 
 
-.purpose{
+.purpose {
+    align-self: start;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 50px;
+    height: 200px;
 
     
 }
@@ -431,20 +431,14 @@ table {
 
 }
 
-.employees figure  {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    
-
-}
 
 .btm {
-    background-color: orange;
+    background-color: violet;
     color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 10rem;
     border: none;
     cursor: pointer;
+    
 }
 
 
@@ -452,11 +446,7 @@ table {
     background-color: var(--accent1-color);
 }
 
-.full-w {
-    grid-column: 1/-1;
-    display: flex;
-    flex-direction: column;
-}
+
  .btm:hover {
     background-color: blue;
 }
@@ -464,29 +454,58 @@ table {
 .contact-form {
     position: relative;
     left: 46%;
-    bottom: 300px;
+    bottom: 340px;
     max-width: 400px;
     background-color: #ffffff;
     color: black;
 }
 
-.employees h2 {
+.employeesg h2 {
     position: absolute;
-    top:900px;
+    top:700px;
     left: 40%;
     font-size: xx-large;
     color: green;
 }
 
+section.employees h2 {
+    border: .1rem;
+}
 
-.employees img {
+.employeesg img {
     border-radius: 50%;
     border: 4px solid var(--accent2-color);
     width: 200px;
     height: 200px;
     object-fit: cover;
+    display:flex;
+    flex-direction: row;
+    
+
 }
 
+.contact-info address {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    
+}
+
+.contact-info h1 {
+    display: flex;
+    justify-self: center;
+
+}
+
+.contact-info a {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.purpose p {
+    align-self: start;
+}
 
 
 
